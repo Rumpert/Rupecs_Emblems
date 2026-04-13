@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:prayers_emblem"
+    },
+    {
+      "item": "rupecs_emblems:prayers_emblem"
+    },
+    {
+      "item": "rupecs_emblems:referencium"
+    },
+    {
+      "item": "rupecs_emblems:referencium"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:lucky_emblem"
+  }
+}

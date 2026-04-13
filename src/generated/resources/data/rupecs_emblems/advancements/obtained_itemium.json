@@ -1,0 +1,36 @@
+{
+  "parent": "rupecs_emblems:root",
+  "criteria": {
+    "obtained_itemium": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "rupecs_emblems:tier_one_itemiums"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain any tier one itemium"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rupecs_emblems:bonsai"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Itemiums"
+    }
+  },
+  "requirements": [
+    [
+      "obtained_itemium"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

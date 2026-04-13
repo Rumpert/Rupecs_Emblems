@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:phoenix_feather"
+    },
+    {
+      "item": "rupecs_emblems:phoenix_feather"
+    },
+    {
+      "item": "rupecs_emblems:phoenix_feather"
+    },
+    {
+      "item": "rupecs_emblems:phoenix_feather"
+    },
+    {
+      "item": "rupecs_emblems:phoenix_feather"
+    },
+    {
+      "item": "rupecs_emblems:phoenix_feather"
+    },
+    {
+      "item": "rupecs_emblems:phoenix_emblem"
+    },
+    {
+      "item": "rupecs_emblems:phoenix_wing_emblem"
+    },
+    {
+      "item": "rupecs_emblems:inferno_emblem"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:true_phoenix_emblem"
+  }
+}

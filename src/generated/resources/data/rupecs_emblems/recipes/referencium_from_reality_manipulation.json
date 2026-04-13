@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "tag": "rupecs_emblems:meat"
+    },
+    {
+      "count": 1,
+      "tag": "forge:feathers"
+    },
+    {
+      "count": 1,
+      "tag": "forge:feathers"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:referencium"
+  },
+  "success_chance": 0.02
+}

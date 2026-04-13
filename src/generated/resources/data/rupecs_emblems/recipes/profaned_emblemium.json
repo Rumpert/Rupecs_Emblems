@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "rupecs_emblems:d_tier_emblems"
+    },
+    "G": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "minecraft:iron_block"
+    },
+    "Q": {
+      "tag": "rupecs_emblems:tier_two_itemiums"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "QBQ",
+    "QGQ"
+  ],
+  "result": {
+    "item": "rupecs_emblems:profaned_emblemium"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:beat_emblem"
+    },
+    {
+      "item": "rupecs_emblems:chord_emblem"
+    },
+    {
+      "item": "rupecs_emblems:half_note"
+    },
+    {
+      "item": "rupecs_emblems:half_note"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:song_emblem"
+  }
+}

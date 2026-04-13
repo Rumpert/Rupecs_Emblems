@@ -1,0 +1,17 @@
+{
+  "type": "rupecs_emblems:enthereal_selector",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "rupecs_emblems:glass_lung"
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:enthereal_void"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:shielded_fossil"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:bread"
+    },
+    {
+      "count": 1,
+      "tag": "minecraft:boats"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:bread"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:bread_piece"
+  },
+  "success_chance": 0.14
+}

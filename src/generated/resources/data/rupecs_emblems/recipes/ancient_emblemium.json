@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "rupecs_emblems:c_tier_emblems"
+    },
+    "G": {
+      "item": "minecraft:lapis_block"
+    },
+    "L": {
+      "item": "minecraft:diamond"
+    },
+    "Q": {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    }
+  },
+  "pattern": [
+    "QGQ",
+    "LBL",
+    "QGQ"
+  ],
+  "result": {
+    "item": "rupecs_emblems:ancient_emblemium"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:snow_block"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:snow_emblem"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:bamboo_emblem"
+    },
+    {
+      "item": "rupecs_emblems:ivy_emblem"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "minecraft:weeping_vines"
+    },
+    {
+      "item": "minecraft:weeping_vines"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:vine_emblem"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:glass"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:sandstone"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:dead_bush"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:sunlight_shard"
+  },
+  "success_chance": 0.1
+}

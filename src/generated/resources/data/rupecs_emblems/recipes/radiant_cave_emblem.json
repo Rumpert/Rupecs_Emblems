@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:mountain_cave_emblem"
+    },
+    {
+      "item": "rupecs_emblems:lush_cave_emblem"
+    },
+    {
+      "item": "rupecs_emblems:radiant_geode"
+    },
+    {
+      "item": "rupecs_emblems:radiant_geode"
+    },
+    {
+      "item": "rupecs_emblems:radiant_geode"
+    },
+    {
+      "item": "rupecs_emblems:radiant_geode"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:radiant_cave_emblem"
+  }
+}

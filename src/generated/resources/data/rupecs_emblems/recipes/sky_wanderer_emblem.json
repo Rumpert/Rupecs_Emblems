@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:tangled_tails"
+    },
+    {
+      "item": "rupecs_emblems:wing_power_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wing_power_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tangled_tails"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:sky_wanderer_emblem"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:electro_emblem"
+    },
+    {
+      "item": "rupecs_emblems:coiled_emblem"
+    },
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "minecraft:lightning_rod"
+    },
+    {
+      "item": "minecraft:lightning_rod"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "rupecs_emblems:iron_plating"
+    },
+    {
+      "item": "rupecs_emblems:iron_plating"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:overcharged_emblem"
+  }
+}

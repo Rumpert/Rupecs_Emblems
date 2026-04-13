@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "rupecs_emblems:meat"
+    },
+    {
+      "item": "minecraft:smoker"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:smoking_emblem"
+  }
+}

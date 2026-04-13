@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "tag": "minecraft:leaves"
+    },
+    "Q": {
+      "item": "rupecs_emblems:glass_lung"
+    }
+  },
+  "pattern": [
+    "QGL",
+    "QIQ",
+    "LGQ"
+  ],
+  "result": {
+    "item": "rupecs_emblems:cloud_emblemium"
+  },
+  "show_notification": true
+}

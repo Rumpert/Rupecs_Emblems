@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jade_earring": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:jade_earring"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:grand_anchor"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_jade_earring",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:grand_anchor"
+    ]
+  },
+  "sends_telemetry_event": false
+}

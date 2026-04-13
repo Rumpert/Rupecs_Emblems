@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dove_wing": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:dove_wing"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:stinger"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dove_wing",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:stinger"
+    ]
+  },
+  "sends_telemetry_event": false
+}

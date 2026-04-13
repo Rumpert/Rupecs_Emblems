@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "tag": "minecraft:shovels"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "rupecs_emblems:fractured_icicle"
+    },
+    {
+      "item": "rupecs_emblems:fractured_icicle"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:blizzard_emblem"
+  }
+}

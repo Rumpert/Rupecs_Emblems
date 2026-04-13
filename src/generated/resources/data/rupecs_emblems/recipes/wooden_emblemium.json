@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "Q": {
+      "tag": "rupecs_emblems:tier_one_itemiums"
+    }
+  },
+  "pattern": [
+    "QLQ",
+    "LIL",
+    "QLQ"
+  ],
+  "result": {
+    "item": "rupecs_emblems:wooden_emblemium"
+  },
+  "show_notification": true
+}

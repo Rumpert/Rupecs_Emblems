@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:iron_plating"
+  },
+  "success_chance": 0.2
+}

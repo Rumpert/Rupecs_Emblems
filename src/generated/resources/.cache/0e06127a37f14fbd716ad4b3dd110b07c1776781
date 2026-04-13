@@ -1,0 +1,4 @@
+// 1.20.1	2025-08-28T13:32:02.7051745	Tags for minecraft:block mod id rupecs_emblems
+ea52d1fb86f17a1b3835507cc085dde3f85ff75c data/minecraft/tags/blocks/mineable/pickaxe.json
+ea52d1fb86f17a1b3835507cc085dde3f85ff75c data/minecraft/tags/blocks/needs_diamond_tool.json
+cf22820ddbe90a1d49889a9379d19bfb0d982a0a data/rupecs_emblems/tags/blocks/counted_as_a_plant_block.json

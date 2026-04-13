@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:leather"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:coal"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:burning_cloth"
+  },
+  "success_chance": 0.2
+}

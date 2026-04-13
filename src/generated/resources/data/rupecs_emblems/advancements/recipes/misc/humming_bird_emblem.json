@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:humming_bird_emblem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wind_catcher_emblem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:wind_catcher_emblem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wind_catcher_emblem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:humming_bird_emblem"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:pickaxes"
+    },
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:burning_cloth"
+    },
+    {
+      "item": "rupecs_emblems:burning_cloth"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:burner_emblem"
+  }
+}

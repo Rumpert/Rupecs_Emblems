@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:dripstone_block"
+    },
+    {
+      "item": "minecraft:dripstone_block"
+    },
+    {
+      "item": "minecraft:dripstone_block"
+    },
+    {
+      "item": "minecraft:dripstone_block"
+    },
+    {
+      "item": "minecraft:dripstone_block"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:stalagmite_emblem"
+    },
+    {
+      "item": "rupecs_emblems:stalactite_emblem"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:stalagnate_emblem"
+  }
+}

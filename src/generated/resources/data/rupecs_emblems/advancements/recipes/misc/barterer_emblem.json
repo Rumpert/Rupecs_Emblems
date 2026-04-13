@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_merchant_emblem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:merchant_emblem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:barterer_emblem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_merchant_emblem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:barterer_emblem"
+    ]
+  },
+  "sends_telemetry_event": false
+}

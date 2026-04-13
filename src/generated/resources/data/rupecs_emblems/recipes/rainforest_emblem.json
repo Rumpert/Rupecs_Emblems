@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:tree_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tree_emblem"
+    },
+    {
+      "item": "rupecs_emblems:plant_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tiny_bush"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:rainforest_emblem"
+  }
+}

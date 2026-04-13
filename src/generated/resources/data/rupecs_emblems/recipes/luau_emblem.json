@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:sunflower_emblem"
+    },
+    {
+      "item": "rupecs_emblems:easter_eggblem"
+    },
+    {
+      "item": "rupecs_emblems:reefs_glory"
+    },
+    {
+      "item": "rupecs_emblems:reefs_glory"
+    },
+    {
+      "item": "rupecs_emblems:reefs_glory"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:luau_emblem"
+  }
+}

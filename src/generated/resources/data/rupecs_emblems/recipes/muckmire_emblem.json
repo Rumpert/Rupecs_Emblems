@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:current_emblem"
+    },
+    {
+      "item": "rupecs_emblems:swamp_emblem"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:muckmire_emblem"
+  }
+}

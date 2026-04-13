@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:branch_emblem"
+    },
+    {
+      "item": "rupecs_emblems:fertilized_emblem"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "rupecs_emblems:bonsai"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:tree_emblem"
+  }
+}

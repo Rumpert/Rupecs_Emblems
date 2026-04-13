@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:mountain_wind_emblem"
+    },
+    {
+      "item": "rupecs_emblems:dove_wing"
+    },
+    {
+      "item": "rupecs_emblems:dove_wing"
+    },
+    {
+      "item": "rupecs_emblems:dove_wing"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:weightless_emblem"
+  }
+}

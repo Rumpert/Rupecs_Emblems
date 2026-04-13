@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:ice_emblem"
+    },
+    {
+      "item": "rupecs_emblems:blizzard_emblem"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "rupecs_emblems:fractured_icicle"
+    },
+    {
+      "item": "rupecs_emblems:fractured_icicle"
+    },
+    {
+      "item": "rupecs_emblems:fractured_icicle"
+    },
+    {
+      "item": "rupecs_emblems:fractured_icicle"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:snowstorm_emblem"
+  }
+}

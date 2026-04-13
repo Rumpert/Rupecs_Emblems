@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "D": {
+      "item": "minecraft:deepslate"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "GAG",
+    "ADA",
+    "GAG"
+  ],
+  "result": {
+    "count": 3,
+    "item": "rupecs_emblems:emblemium_sigil"
+  },
+  "show_notification": true
+}

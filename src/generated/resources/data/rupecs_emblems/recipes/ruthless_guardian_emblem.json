@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "rupecs_emblems:tank_emblem"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:ruthless_guardian_emblem"
+  }
+}

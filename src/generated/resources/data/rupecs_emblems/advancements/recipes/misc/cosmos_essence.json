@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sunlight_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:sunlight_shard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:cosmos_essence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sunlight_shard",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:cosmos_essence"
+    ]
+  },
+  "sends_telemetry_event": false
+}

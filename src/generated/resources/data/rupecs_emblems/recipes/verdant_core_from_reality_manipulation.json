@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "tag": "minecraft:flowers"
+    },
+    {
+      "count": 1,
+      "tag": "minecraft:saplings"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:dirt"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:verdant_core"
+  },
+  "success_chance": 0.17
+}

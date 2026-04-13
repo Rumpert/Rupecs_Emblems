@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:pointed_dripstone"
+    },
+    {
+      "item": "minecraft:pointed_dripstone"
+    },
+    {
+      "item": "minecraft:pointed_dripstone"
+    },
+    {
+      "item": "minecraft:pointed_dripstone"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:bone_emblem"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:stalagmite_emblem"
+  }
+}

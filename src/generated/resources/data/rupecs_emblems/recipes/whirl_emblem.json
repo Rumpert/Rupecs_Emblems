@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:tide_emblem"
+    },
+    {
+      "item": "rupecs_emblems:bubble_emblem"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:whirl_emblem"
+  }
+}

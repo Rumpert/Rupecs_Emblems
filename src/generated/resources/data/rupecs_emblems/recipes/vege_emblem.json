@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:hay_block"
+    },
+    {
+      "item": "minecraft:hay_block"
+    },
+    {
+      "item": "minecraft:hay_block"
+    },
+    {
+      "item": "minecraft:hay_block"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:vege_emblem"
+  }
+}

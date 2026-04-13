@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:happy_emblem"
+    },
+    {
+      "tag": "rupecs_emblems:tier_two_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_two_itemiums"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:prayers_emblem"
+  }
+}

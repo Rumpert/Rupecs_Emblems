@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:rainforest_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wither_rose_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tiny_bush"
+    },
+    {
+      "item": "rupecs_emblems:tiny_bush"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:deadforest_emblem"
+  }
+}

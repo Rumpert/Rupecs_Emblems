@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "minecraft:fletching_table"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "minecraft:smithing_table"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "minecraft:cartography_table"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "minecraft:lectern"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:merchant_emblem"
+  }
+}

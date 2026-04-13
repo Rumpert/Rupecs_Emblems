@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:moon_wrath_emblem"
+  }
+}

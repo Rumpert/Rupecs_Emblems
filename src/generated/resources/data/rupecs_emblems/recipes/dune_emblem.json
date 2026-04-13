@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:downhill_emblem"
+    },
+    {
+      "item": "rupecs_emblems:sand_emblem"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:dune_emblem"
+  }
+}

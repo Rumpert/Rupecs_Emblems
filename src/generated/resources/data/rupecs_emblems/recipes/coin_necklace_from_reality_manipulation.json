@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:composter"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:barrel"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:poppy"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:coin_necklace"
+  },
+  "success_chance": 0.24
+}

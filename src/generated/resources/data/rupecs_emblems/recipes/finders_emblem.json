@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:itemium_emblem"
+    },
+    {
+      "item": "rupecs_emblems:burning_cloth"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:finders_emblem"
+  }
+}

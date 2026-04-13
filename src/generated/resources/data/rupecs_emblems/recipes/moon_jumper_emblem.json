@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:moon_jumper_emblem"
+  }
+}

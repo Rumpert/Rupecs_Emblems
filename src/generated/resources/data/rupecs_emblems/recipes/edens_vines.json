@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:tiny_bush"
+    },
+    {
+      "item": "rupecs_emblems:tiny_bush"
+    },
+    {
+      "item": "rupecs_emblems:tiny_bush"
+    },
+    {
+      "item": "rupecs_emblems:tiny_bush"
+    },
+    {
+      "item": "rupecs_emblems:star_sapling"
+    },
+    {
+      "item": "rupecs_emblems:star_sapling"
+    },
+    {
+      "item": "rupecs_emblems:reefs_glory"
+    },
+    {
+      "item": "rupecs_emblems:reefs_glory"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_void"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:edens_vines"
+  }
+}

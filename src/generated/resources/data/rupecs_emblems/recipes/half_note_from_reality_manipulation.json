@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "rupecs_emblems:half_note"
+  },
+  "success_chance": 0.6
+}

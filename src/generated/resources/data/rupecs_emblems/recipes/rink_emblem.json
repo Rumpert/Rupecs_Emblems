@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "rupecs_emblems:fractured_icicle"
+    },
+    {
+      "item": "rupecs_emblems:fractured_icicle"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:rink_emblem"
+  }
+}

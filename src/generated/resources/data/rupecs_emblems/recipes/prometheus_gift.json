@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:the_torch"
+    },
+    {
+      "item": "rupecs_emblems:the_torch"
+    },
+    {
+      "item": "rupecs_emblems:the_torch"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:prometheus_gift"
+  }
+}

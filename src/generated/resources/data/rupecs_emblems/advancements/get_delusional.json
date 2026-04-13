@@ -1,0 +1,43 @@
+{
+  "parent": "rupecs_emblems:root",
+  "criteria": {
+    "got_delusional": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:moon_emblem"
+            ]
+          },
+          {
+            "items": [
+              "rupecs_emblems:knight_emblem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain Moon and Knight emblems"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "rupecs_emblems:moon_emblem"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Get delusional"
+    }
+  },
+  "requirements": [
+    [
+      "got_delusional"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

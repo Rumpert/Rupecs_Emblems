@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:paw_fossil"
+    },
+    {
+      "item": "rupecs_emblems:paw_fossil"
+    },
+    {
+      "item": "rupecs_emblems:stinger"
+    },
+    {
+      "item": "rupecs_emblems:stinger"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_void"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:tangled_tails"
+  }
+}

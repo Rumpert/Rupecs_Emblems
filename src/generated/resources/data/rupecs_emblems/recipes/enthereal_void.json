@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "G": {
+      "item": "rupecs_emblems:enthereal_conjugation"
+    },
+    "L": {
+      "item": "minecraft:ender_eye"
+    },
+    "Q": {
+      "item": "minecraft:blaze_powder"
+    },
+    "R": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "LGR",
+    "QQQ"
+  ],
+  "result": {
+    "count": 2,
+    "item": "rupecs_emblems:enthereal_void"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_radiant_geode": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:radiant_geode"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:radiant_cave_emblem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_radiant_geode",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:radiant_cave_emblem"
+    ]
+  },
+  "sends_telemetry_event": false
+}

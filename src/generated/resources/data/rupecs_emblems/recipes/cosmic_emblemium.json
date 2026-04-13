@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "rupecs_emblems:a_tier_emblems"
+    },
+    "D": {
+      "tag": "rupecs_emblems:tier_five_itemiums"
+    },
+    "G": {
+      "tag": "rupecs_emblems:b_tier_emblems"
+    },
+    "L": {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "DBD",
+    "LGL"
+  ],
+  "result": {
+    "item": "rupecs_emblems:cosmic_emblemium"
+  },
+  "show_notification": true
+}

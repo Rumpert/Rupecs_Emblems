@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "minecraft:pufferfish_bucket"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:puddle_emblem"
+  }
+}

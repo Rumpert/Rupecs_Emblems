@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:desert_cave_emblem"
+    },
+    {
+      "item": "rupecs_emblems:stalactite_cave_emblem"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:lifeless_cave_emblem"
+  }
+}

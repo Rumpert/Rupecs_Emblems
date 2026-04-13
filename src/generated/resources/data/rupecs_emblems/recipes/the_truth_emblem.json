@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:foreseen_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wine_cup"
+    },
+    {
+      "tag": "rupecs_emblems:tier_four_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_four_itemiums"
+    },
+    {
+      "item": "rupecs_emblems:sunray_beam"
+    },
+    {
+      "item": "rupecs_emblems:sunray_beam"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:the_truth_emblem"
+  }
+}

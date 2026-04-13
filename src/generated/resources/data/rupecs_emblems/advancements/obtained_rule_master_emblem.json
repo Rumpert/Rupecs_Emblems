@@ -1,0 +1,38 @@
+{
+  "parent": "rupecs_emblems:root",
+  "criteria": {
+    "obtained_rule_master_emblem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:rule_master_emblem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Confront Rouxls"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "rupecs_emblems:rule_master_emblem"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "One makes the rules"
+    }
+  },
+  "requirements": [
+    [
+      "obtained_rule_master_emblem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

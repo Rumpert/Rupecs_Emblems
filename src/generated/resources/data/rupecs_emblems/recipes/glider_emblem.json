@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:glass_lung"
+    },
+    {
+      "item": "rupecs_emblems:glass_lung"
+    },
+    {
+      "item": "rupecs_emblems:glass_lung"
+    },
+    {
+      "item": "rupecs_emblems:feather_emblem"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:glider_emblem"
+  }
+}

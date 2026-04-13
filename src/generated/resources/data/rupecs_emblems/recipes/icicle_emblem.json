@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "rupecs_emblems:fractured_icicle"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:icicle_emblem"
+  }
+}

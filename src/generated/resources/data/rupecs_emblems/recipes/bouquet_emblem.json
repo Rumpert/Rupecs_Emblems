@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:rose_emblem"
+    },
+    {
+      "item": "rupecs_emblems:sunflower_emblem"
+    },
+    {
+      "item": "rupecs_emblems:nightbloom_emblem"
+    },
+    {
+      "item": "rupecs_emblems:flower_emblem"
+    },
+    {
+      "item": "rupecs_emblems:orchid_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tiny_bush"
+    },
+    {
+      "item": "rupecs_emblems:bonsai"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:bouquet_emblem"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:cobbled_deepslate"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "count": 1,
+      "tag": "forge:stone"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:shielded_fossil"
+  },
+  "success_chance": 0.03
+}

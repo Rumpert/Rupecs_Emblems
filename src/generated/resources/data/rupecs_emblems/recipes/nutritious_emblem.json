@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "minecraft:composter"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:nutritious_emblem"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "net.hubert.rupecs_emblems.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "BoatTravelMixin",
+    "CraftingMenuMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "LivingEntityTravelMixin",
+    "PowderSnowBlockMixin"
+  ],
+  "client": [
+    "GuiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "mixin.rupecs_emblems.refmap.json"
+}

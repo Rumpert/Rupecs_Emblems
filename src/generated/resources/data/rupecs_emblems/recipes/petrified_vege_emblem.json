@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:vege_emblem"
+    },
+    {
+      "item": "rupecs_emblems:poop_emblem"
+    },
+    {
+      "item": "rupecs_emblems:poop_emblem"
+    },
+    {
+      "item": "rupecs_emblems:poop_emblem"
+    },
+    {
+      "item": "rupecs_emblems:earf"
+    },
+    {
+      "item": "rupecs_emblems:earf"
+    },
+    {
+      "item": "rupecs_emblems:earf"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:petrified_vege_emblem"
+  }
+}

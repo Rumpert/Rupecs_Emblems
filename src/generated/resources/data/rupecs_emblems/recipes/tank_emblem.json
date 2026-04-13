@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "rupecs_emblems:bone_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wood_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wood_emblem"
+    },
+    {
+      "item": "rupecs_emblems:warrior_emblem"
+    },
+    {
+      "item": "rupecs_emblems:iron_plating"
+    },
+    {
+      "item": "rupecs_emblems:iron_plating"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:tank_emblem"
+  }
+}

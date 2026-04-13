@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:winner_emblem"
+    },
+    {
+      "item": "rupecs_emblems:winner_emblem"
+    },
+    {
+      "tag": "rupecs_emblems:tier_four_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_four_itemiums"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:rule_master_emblem"
+  }
+}

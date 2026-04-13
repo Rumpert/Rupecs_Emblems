@@ -1,0 +1,17 @@
+{
+  "type": "rupecs_emblems:enthereal_selector",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:enthereal_void"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:bent_fin"
+  }
+}

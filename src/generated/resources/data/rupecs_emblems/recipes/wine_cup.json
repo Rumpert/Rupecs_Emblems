@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:bread_piece"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    },
+    {
+      "item": "rupecs_emblems:referencium"
+    },
+    {
+      "item": "rupecs_emblems:referencium"
+    },
+    {
+      "item": "rupecs_emblems:referencium"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:wine_cup"
+  }
+}

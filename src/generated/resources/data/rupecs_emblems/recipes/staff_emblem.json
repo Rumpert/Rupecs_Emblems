@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:untuned_emblem"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:staff_emblem"
+  }
+}

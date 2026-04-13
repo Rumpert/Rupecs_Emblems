@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:downhill_emblem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wood_emblem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:wood_emblem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wood_emblem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:downhill_emblem"
+    ]
+  },
+  "sends_telemetry_event": false
+}

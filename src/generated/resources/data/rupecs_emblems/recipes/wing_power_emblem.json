@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:weightless_emblem"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:wing_power_emblem"
+  }
+}

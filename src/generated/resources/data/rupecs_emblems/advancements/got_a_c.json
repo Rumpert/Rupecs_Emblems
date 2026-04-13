@@ -1,0 +1,36 @@
+{
+  "parent": "rupecs_emblems:got_a_d",
+  "criteria": {
+    "got_a_c": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "rupecs_emblems:c_tier_emblems"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Obtain C Tier Emblem"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rupecs_emblems:mirror_emblem"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Finally something good"
+    }
+  },
+  "requirements": [
+    [
+      "got_a_c"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

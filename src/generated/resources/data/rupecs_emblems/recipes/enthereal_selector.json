@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "D": {
+      "item": "rupecs_emblems:enthereal_void"
+    },
+    "G": {
+      "tag": "rupecs_emblems:tier_four_itemiums"
+    },
+    "I": {
+      "item": "minecraft:smooth_stone"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "BIB",
+    "GDG",
+    "WNW"
+  ],
+  "result": {
+    "item": "rupecs_emblems:enthereal_selector"
+  },
+  "show_notification": true
+}

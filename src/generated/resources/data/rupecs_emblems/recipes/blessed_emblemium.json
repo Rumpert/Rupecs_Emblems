@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "rupecs_emblems:bread_piece"
+    },
+    "G": {
+      "tag": "rupecs_emblems:tier_two_itemiums"
+    },
+    "L": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "GBG",
+    "LGL"
+  ],
+  "result": {
+    "item": "rupecs_emblems:blessed_emblemium"
+  },
+  "show_notification": true
+}

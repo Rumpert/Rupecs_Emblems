@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:quartz_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "I": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "L": {
+      "item": "minecraft:gold_block"
+    },
+    "Q": {
+      "item": "rupecs_emblems:burning_cloth"
+    }
+  },
+  "pattern": [
+    "LCQ",
+    "DID",
+    "QCL"
+  ],
+  "result": {
+    "item": "rupecs_emblems:nether_emblemium"
+  },
+  "show_notification": true
+}

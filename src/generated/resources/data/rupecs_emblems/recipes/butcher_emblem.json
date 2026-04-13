@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "tag": "rupecs_emblems:meat"
+    },
+    {
+      "tag": "rupecs_emblems:meat"
+    },
+    {
+      "tag": "rupecs_emblems:meat"
+    },
+    {
+      "tag": "rupecs_emblems:meat"
+    },
+    {
+      "tag": "rupecs_emblems:meat"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:butcher_emblem"
+  }
+}

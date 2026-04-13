@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:smooth_quartz"
+    },
+    {
+      "item": "rupecs_emblems:gladiator_emblem"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:assassin_emblem"
+  }
+}

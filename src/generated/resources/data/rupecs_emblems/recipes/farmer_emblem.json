@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:wooden_hoe"
+    },
+    {
+      "item": "minecraft:stone_hoe"
+    },
+    {
+      "item": "minecraft:iron_hoe"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:farmer_emblem"
+  }
+}

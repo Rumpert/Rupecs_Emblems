@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:vine_emblem"
+    },
+    {
+      "item": "rupecs_emblems:ibara_emblem"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:prickle_vine_emblem"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "rupecs_emblems:manipulation_core"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "I": {
+      "item": "minecraft:smooth_stone"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GDG",
+    "IOI"
+  ],
+  "result": {
+    "item": "rupecs_emblems:reality_manipulator"
+  },
+  "show_notification": true
+}

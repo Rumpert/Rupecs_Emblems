@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:edens_vines"
+    },
+    {
+      "item": "rupecs_emblems:serpent_seed"
+    },
+    {
+      "item": "rupecs_emblems:rooted_rock"
+    },
+    {
+      "item": "rupecs_emblems:grand_anchor"
+    },
+    {
+      "item": "rupecs_emblems:black_pearl"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_void"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_void"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_void"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_void"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:eves_apple"
+  }
+}

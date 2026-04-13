@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:coal"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:battery"
+  },
+  "success_chance": 0.13
+}

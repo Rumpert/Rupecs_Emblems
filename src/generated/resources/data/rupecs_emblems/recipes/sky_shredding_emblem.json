@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:dasher_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wind_catcher_emblem"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    },
+    {
+      "item": "rupecs_emblems:eagle_beak"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:sky_shredding_emblem"
+  }
+}

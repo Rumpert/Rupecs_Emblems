@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:lightning_rod"
+    },
+    {
+      "item": "minecraft:lightning_rod"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "rupecs_emblems:spark_emblem"
+    },
+    {
+      "item": "rupecs_emblems:spark_emblem"
+    },
+    {
+      "item": "rupecs_emblems:discaptured_energy"
+    },
+    {
+      "item": "rupecs_emblems:discaptured_energy"
+    },
+    {
+      "item": "rupecs_emblems:battery"
+    },
+    {
+      "item": "rupecs_emblems:battery"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:lightning_emblem"
+  }
+}

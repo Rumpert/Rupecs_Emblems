@@ -1,0 +1,8 @@
+// 1.20.1	2026-04-02T20:32:38.051931	Global Loot Modifiers : rupecs_emblems
+3e195581877768d78fd7d71034a1b510c52df003 data/forge/loot_modifiers/global_loot_modifiers.json
+63705b39cf33814c3117e73c117206ffcfa439b2 data/rupecs_emblems/loot_modifiers/block_burner.json
+27cc2adb550dde2d061dee8686b767c8db96a69e data/rupecs_emblems/loot_modifiers/fortune_fever.json
+433fa881486f7647fa46608f14f9957eb66130a3 data/rupecs_emblems/loot_modifiers/fortune_fist.json
+559355be0f7a5cae32c71a63fd8171cfb5ed4039 data/rupecs_emblems/loot_modifiers/leaf_luck.json
+efaea5f9dcf18e6d5d1bbda748909356bd2fbe17 data/rupecs_emblems/loot_modifiers/rich_soil.json
+07943de94c95a067fb1ab93d54e14e3c79ad590d data/rupecs_emblems/loot_modifiers/smelting.json

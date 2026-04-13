@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:tesla_bar"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:discaptured_energy"
+  }
+}

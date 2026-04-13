@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:wither_rose_emblem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wither_rose": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_rose"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wither_rose",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:wither_rose_emblem"
+    ]
+  },
+  "sends_telemetry_event": false
+}

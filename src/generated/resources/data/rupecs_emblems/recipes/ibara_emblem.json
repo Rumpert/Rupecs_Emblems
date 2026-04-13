@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:rose_emblem"
+    },
+    {
+      "item": "rupecs_emblems:cactus_emblem"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:rose_bush"
+    },
+    {
+      "item": "minecraft:rose_bush"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:ibara_emblem"
+  }
+}

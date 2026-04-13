@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "rupecs_emblems:sunray_beam"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:fluorescent_emblem"
+  }
+}

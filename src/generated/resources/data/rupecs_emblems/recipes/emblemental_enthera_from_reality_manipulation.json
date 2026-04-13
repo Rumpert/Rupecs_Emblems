@@ -1,0 +1,24 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "tag": "rupecs_emblems:emblems"
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:emblemium_sigil"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:emblemental_enthera",
+    "nbt": {
+      "enther": 0
+    }
+  }
+}

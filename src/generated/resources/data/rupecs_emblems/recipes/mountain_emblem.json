@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:hill_emblem"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:mountain_emblem"
+  }
+}

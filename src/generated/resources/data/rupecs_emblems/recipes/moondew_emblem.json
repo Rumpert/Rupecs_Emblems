@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:moon_emblem"
+    },
+    {
+      "item": "rupecs_emblems:orchid_emblem"
+    },
+    {
+      "item": "rupecs_emblems:moonglow"
+    },
+    {
+      "item": "rupecs_emblems:moonglow"
+    },
+    {
+      "item": "rupecs_emblems:moonglow"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:moondew_emblem"
+  }
+}

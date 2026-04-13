@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:lucky_emblem"
+    },
+    {
+      "item": "rupecs_emblems:lucky_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wine_cup"
+    },
+    {
+      "item": "rupecs_emblems:wine_cup"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:leprechauns_emblem"
+  }
+}

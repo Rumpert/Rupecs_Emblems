@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:god_forge_emblem"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "rupecs_emblems:shattered_void"
+    },
+    {
+      "item": "rupecs_emblems:shattered_void"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:hephaestus_emblem"
+  }
+}

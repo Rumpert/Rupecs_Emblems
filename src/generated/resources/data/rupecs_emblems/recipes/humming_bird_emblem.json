@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:dove_wing"
+    },
+    {
+      "item": "rupecs_emblems:dove_wing"
+    },
+    {
+      "item": "rupecs_emblems:dove_wing"
+    },
+    {
+      "item": "rupecs_emblems:wind_catcher_emblem"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:humming_bird_emblem"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "tag": "minecraft:logs"
+    },
+    {
+      "count": 1,
+      "tag": "minecraft:leaves"
+    },
+    {
+      "count": 1,
+      "tag": "minecraft:planks"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:bonsai"
+  },
+  "success_chance": 0.04
+}

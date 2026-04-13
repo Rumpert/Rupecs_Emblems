@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    },
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    },
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:cosmos_essence"
+  }
+}

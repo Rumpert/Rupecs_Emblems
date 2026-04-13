@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_conjugation"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_conjugation"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:sunray_beam"
+  }
+}

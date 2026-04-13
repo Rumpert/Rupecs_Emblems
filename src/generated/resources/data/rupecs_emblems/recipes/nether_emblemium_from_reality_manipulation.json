@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:emblemium_sigil"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:quartz"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:nether_emblemium"
+  },
+  "success_chance": 0.02
+}

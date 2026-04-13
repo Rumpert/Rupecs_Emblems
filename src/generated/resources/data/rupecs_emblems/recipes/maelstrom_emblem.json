@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:vortex_emblem"
+    },
+    {
+      "item": "rupecs_emblems:full_moon_emblem"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:maelstrom_emblem"
+  }
+}

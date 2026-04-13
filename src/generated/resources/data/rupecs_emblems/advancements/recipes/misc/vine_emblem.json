@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:vine_emblem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_twisting_vines": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:twisting_vines"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_twisting_vines",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:vine_emblem"
+    ]
+  },
+  "sends_telemetry_event": false
+}

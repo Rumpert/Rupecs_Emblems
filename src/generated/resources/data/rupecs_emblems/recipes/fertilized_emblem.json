@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:flower_emblem"
+    },
+    {
+      "item": "rupecs_emblems:ground_emblem"
+    },
+    {
+      "tag": "minecraft:dirt"
+    },
+    {
+      "tag": "minecraft:dirt"
+    },
+    {
+      "tag": "minecraft:dirt"
+    },
+    {
+      "tag": "minecraft:flowers"
+    },
+    {
+      "tag": "minecraft:flowers"
+    },
+    {
+      "tag": "minecraft:flowers"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:fertilized_emblem"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:mountain_emblem"
+    },
+    {
+      "item": "rupecs_emblems:mountain_emblem"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "item": "rupecs_emblems:radiant_geode"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:mountain_range_emblem"
+  }
+}

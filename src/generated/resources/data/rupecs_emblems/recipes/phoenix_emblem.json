@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:phoenix_feather"
+    },
+    {
+      "item": "rupecs_emblems:phoenix_feather"
+    },
+    {
+      "item": "rupecs_emblems:phoenix_feather"
+    },
+    {
+      "item": "rupecs_emblems:feather_emblem"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:phoenix_emblem"
+  }
+}

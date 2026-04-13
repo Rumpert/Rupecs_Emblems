@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:paw_fossil"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wisteria_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:wisteria_flower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wisteria_flower",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:paw_fossil"
+    ]
+  },
+  "sends_telemetry_event": false
+}

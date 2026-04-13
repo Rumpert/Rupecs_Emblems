@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:forger_emblem"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "rupecs_emblems:prometheus_gift"
+    },
+    {
+      "item": "rupecs_emblems:prometheus_gift"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:god_forge_emblem"
+  }
+}

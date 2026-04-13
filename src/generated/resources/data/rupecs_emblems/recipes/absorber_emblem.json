@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:ruthless_guardian_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tank_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tank_emblem"
+    },
+    {
+      "item": "rupecs_emblems:brittle_fossil"
+    },
+    {
+      "item": "rupecs_emblems:brittle_fossil"
+    },
+    {
+      "item": "rupecs_emblems:brittle_fossil"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:absorber_emblem"
+  }
+}

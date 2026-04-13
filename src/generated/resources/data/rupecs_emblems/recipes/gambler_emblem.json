@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:spade_emblem"
+    },
+    {
+      "item": "rupecs_emblems:clover_emblem"
+    },
+    {
+      "item": "rupecs_emblems:heart_emblem"
+    },
+    {
+      "item": "rupecs_emblems:diamonds_emblem"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:gambler_emblem"
+  }
+}

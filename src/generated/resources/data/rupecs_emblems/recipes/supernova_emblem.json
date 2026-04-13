@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:sun_emblem"
+    },
+    {
+      "item": "rupecs_emblems:inferno_emblem"
+    },
+    {
+      "item": "rupecs_emblems:magma_emblem"
+    },
+    {
+      "item": "rupecs_emblems:fire_emblem"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "rupecs_emblems:burning_cloth"
+    },
+    {
+      "item": "rupecs_emblems:burning_cloth"
+    },
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    },
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:supernova_emblem"
+  }
+}

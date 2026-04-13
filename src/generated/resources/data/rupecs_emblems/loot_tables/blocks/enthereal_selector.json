@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rupecs_emblems:enthereal_selector"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "rupecs_emblems:blocks/enthereal_selector"
+}

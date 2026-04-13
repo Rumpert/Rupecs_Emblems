@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:coarse_dirt"
+    },
+    {
+      "item": "minecraft:coarse_dirt"
+    },
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "rupecs_emblems:ground_emblem"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:soil_emblem"
+  }
+}

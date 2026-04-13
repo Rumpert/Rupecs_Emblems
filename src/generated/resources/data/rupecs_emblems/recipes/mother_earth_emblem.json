@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:edens_vines"
+    },
+    {
+      "item": "rupecs_emblems:plant_sigil_1"
+    },
+    {
+      "item": "rupecs_emblems:flowerforest_emblem"
+    },
+    {
+      "item": "rupecs_emblems:flowerforest_emblem"
+    },
+    {
+      "item": "rupecs_emblems:edens_vines"
+    },
+    {
+      "item": "rupecs_emblems:plant_sigil_2"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:mother_earth_emblem"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "rupecs_emblems:burning_cloth"
+    },
+    {
+      "item": "rupecs_emblems:burning_cloth"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:inferno_emblem"
+  }
+}

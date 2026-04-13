@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:expert_emblem"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:master_emblem"
+  }
+}

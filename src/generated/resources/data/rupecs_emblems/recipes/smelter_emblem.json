@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:ancient_remains"
+    },
+    {
+      "tag": "minecraft:pickaxes"
+    },
+    {
+      "item": "minecraft:blast_furnace"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "rupecs_emblems:burning_cloth"
+    },
+    {
+      "item": "rupecs_emblems:burning_cloth"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:smelter_emblem"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:coral_crown"
+  }
+}

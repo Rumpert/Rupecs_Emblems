@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:star_sapling"
+    },
+    {
+      "item": "rupecs_emblems:star_sapling"
+    },
+    {
+      "item": "rupecs_emblems:star_sapling"
+    },
+    {
+      "item": "rupecs_emblems:star_sapling"
+    },
+    {
+      "item": "rupecs_emblems:jade_earring"
+    },
+    {
+      "item": "rupecs_emblems:jade_earring"
+    },
+    {
+      "item": "rupecs_emblems:brittle_fossil"
+    },
+    {
+      "item": "rupecs_emblems:brittle_fossil"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_void"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:serpent_seed"
+  }
+}

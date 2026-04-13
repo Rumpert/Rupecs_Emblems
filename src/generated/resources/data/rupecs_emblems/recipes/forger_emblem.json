@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:blacksmith_emblem"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:forger_emblem"
+  }
+}

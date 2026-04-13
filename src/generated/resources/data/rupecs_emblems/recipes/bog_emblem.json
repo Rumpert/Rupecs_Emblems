@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:puddle_emblem"
+    },
+    {
+      "item": "rupecs_emblems:mist_emblem"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:bog_emblem"
+  }
+}

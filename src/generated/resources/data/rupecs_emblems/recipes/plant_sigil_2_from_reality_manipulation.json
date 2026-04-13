@@ -1,0 +1,21 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "rupecs_emblems:dandelion_emblem"
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:tiny_bush"
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:dandelion_emblem"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:plant_sigil_2"
+  }
+}

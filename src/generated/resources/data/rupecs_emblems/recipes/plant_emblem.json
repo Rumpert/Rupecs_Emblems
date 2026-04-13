@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "tag": "minecraft:saplings"
+    },
+    {
+      "tag": "minecraft:saplings"
+    },
+    {
+      "tag": "minecraft:saplings"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "rupecs_emblems:bonsai"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:plant_emblem"
+  }
+}

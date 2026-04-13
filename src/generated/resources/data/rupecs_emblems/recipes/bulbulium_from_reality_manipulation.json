@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:seagrass"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:seagrass"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:kelp"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:bulbulium"
+  },
+  "success_chance": 0.17
+}

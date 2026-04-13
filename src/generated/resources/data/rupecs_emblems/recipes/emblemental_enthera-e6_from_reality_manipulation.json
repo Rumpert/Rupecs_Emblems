@@ -1,0 +1,33 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:emblemental_enthera",
+      "nbt_conditions": [
+        {
+          "type": "int_equal",
+          "exact": true,
+          "key": "enther",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:enthereal_mass"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:emblemental_enthera",
+    "nbt": {
+      "enther": 6
+    }
+  },
+  "success_chance": 0.2
+}

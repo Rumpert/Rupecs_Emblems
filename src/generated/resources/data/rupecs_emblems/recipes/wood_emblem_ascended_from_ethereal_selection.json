@@ -1,0 +1,27 @@
+{
+  "type": "rupecs_emblems:enthereal_selector",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "rupecs_emblems:emblemental_enthera",
+      "nbt_conditions": [
+        {
+          "type": "int_higher",
+          "key": "enther",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:wood_emblem"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:wood_emblem",
+    "nbt": {
+      "ascended": 1
+    }
+  }
+}

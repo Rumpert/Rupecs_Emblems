@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:nether_emblemium"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:dragon_breath"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:end_emblemium"
+  },
+  "success_chance": 0.3
+}

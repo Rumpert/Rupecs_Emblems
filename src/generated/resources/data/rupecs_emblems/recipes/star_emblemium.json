@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:nether_star"
+    },
+    "I": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "DID",
+    "IDI",
+    "DID"
+  ],
+  "result": {
+    "item": "rupecs_emblems:star_emblemium"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "tag": "forge:seeds"
+    },
+    {
+      "tag": "forge:seeds"
+    },
+    {
+      "tag": "forge:seeds"
+    },
+    {
+      "tag": "forge:seeds"
+    },
+    {
+      "tag": "minecraft:hoes"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:farmer_apprentice_emblem"
+  }
+}

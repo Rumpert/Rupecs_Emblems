@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:day_emblem"
+    },
+    {
+      "item": "rupecs_emblems:night_emblem"
+    },
+    {
+      "item": "rupecs_emblems:sky_emblem"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "rupecs_emblems:glass_lung"
+    },
+    {
+      "item": "rupecs_emblems:glass_lung"
+    },
+    {
+      "item": "rupecs_emblems:glass_lung"
+    },
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    },
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:heaven_emblem"
+  }
+}

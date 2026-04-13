@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:coin_emblem"
+    },
+    {
+      "tag": "rupecs_emblems:tier_two_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_two_itemiums"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:happy_emblem"
+  }
+}

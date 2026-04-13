@@ -1,0 +1,32 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "rupecs_emblems:emblemium_insignia"
+    },
+    {
+      "count": 1,
+      "item": "rupecs_emblems:blessed_emblemium",
+      "nbt_conditions": [
+        {
+          "type": "int_equal",
+          "exact": true,
+          "key": "slots",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "tag": "rupecs_emblems:tier_four_itemiums"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:blessed_emblemium",
+    "nbt": {
+      "slots": 3
+    }
+  }
+}

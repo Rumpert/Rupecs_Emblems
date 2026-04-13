@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:bonsai"
+    },
+    {
+      "item": "rupecs_emblems:bonsai"
+    },
+    {
+      "item": "minecraft:bow"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:arrow"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:archer_emblem"
+  }
+}

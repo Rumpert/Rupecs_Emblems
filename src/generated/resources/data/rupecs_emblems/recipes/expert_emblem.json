@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:trained_emblem"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_two_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_two_itemiums"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:expert_emblem"
+  }
+}

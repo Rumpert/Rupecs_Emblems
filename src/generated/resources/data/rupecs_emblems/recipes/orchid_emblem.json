@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:flower_emblem"
+    },
+    {
+      "item": "rupecs_emblems:farmer_emblem"
+    },
+    {
+      "item": "rupecs_emblems:seed_pouch"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:blue_orchid"
+    },
+    {
+      "item": "minecraft:blue_orchid"
+    },
+    {
+      "item": "minecraft:blue_orchid"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:orchid_emblem"
+  }
+}

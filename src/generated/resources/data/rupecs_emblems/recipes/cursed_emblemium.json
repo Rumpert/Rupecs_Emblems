@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "rupecs_emblems:b_tier_emblems"
+    },
+    "G": {
+      "tag": "rupecs_emblems:c_tier_emblems"
+    },
+    "L": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "Q": {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    }
+  },
+  "pattern": [
+    "QGQ",
+    "LBL",
+    "QGQ"
+  ],
+  "result": {
+    "item": "rupecs_emblems:cursed_emblemium"
+  },
+  "show_notification": true
+}

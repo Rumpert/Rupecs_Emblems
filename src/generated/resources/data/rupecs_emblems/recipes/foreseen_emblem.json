@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:rule_master_emblem"
+    },
+    {
+      "item": "rupecs_emblems:sunray_beam"
+    },
+    {
+      "item": "rupecs_emblems:sunray_beam"
+    },
+    {
+      "item": "rupecs_emblems:sunray_beam"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:foreseen_emblem"
+  }
+}

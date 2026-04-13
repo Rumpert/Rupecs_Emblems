@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "got_first_emblem": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "rupecs_emblems:emblems"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/stone_bricks.png",
+    "description": {
+      "text": "Get your first emblem"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rupecs_emblems:wood_emblem"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Emblems"
+    }
+  },
+  "requirements": [
+    [
+      "got_first_emblem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

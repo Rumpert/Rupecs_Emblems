@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "rupecs_emblems:tier_four_itemiums"
+    },
+    "D": {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    "G": {
+      "tag": "rupecs_emblems:b_tier_emblems"
+    },
+    "L": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "DBD",
+    "DGD"
+  ],
+  "result": {
+    "item": "rupecs_emblems:global_emblemium"
+  },
+  "show_notification": true
+}

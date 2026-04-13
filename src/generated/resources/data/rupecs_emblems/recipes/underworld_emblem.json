@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:black_pearl"
+    },
+    {
+      "item": "rupecs_emblems:boulder_emblem"
+    },
+    {
+      "item": "rupecs_emblems:brittle_fossil"
+    },
+    {
+      "item": "rupecs_emblems:atomic_cave_emblem"
+    },
+    {
+      "item": "rupecs_emblems:atomic_cave_emblem"
+    },
+    {
+      "item": "rupecs_emblems:black_pearl"
+    },
+    {
+      "item": "rupecs_emblems:clay_emblem"
+    },
+    {
+      "item": "rupecs_emblems:brittle_fossil"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:underworld_emblem"
+  }
+}

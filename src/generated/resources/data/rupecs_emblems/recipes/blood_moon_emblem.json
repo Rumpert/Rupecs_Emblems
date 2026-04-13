@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:full_moon_emblem"
+    },
+    {
+      "item": "rupecs_emblems:moon_jumper_emblem"
+    },
+    {
+      "item": "rupecs_emblems:comet_emblem"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:blood_moon_emblem"
+  }
+}

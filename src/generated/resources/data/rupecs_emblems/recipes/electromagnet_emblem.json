@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "rupecs_emblems:magnetite_emblem"
+    },
+    {
+      "item": "rupecs_emblems:battery"
+    },
+    {
+      "item": "rupecs_emblems:battery"
+    },
+    {
+      "item": "rupecs_emblems:battery"
+    },
+    {
+      "item": "rupecs_emblems:battery"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:electromagnet_emblem"
+  }
+}

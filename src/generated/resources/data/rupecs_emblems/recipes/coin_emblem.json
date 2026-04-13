@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:finders_emblem"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:coin_emblem"
+  }
+}

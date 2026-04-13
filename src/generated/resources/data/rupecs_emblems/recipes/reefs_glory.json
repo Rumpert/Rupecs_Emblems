@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:coral_crown"
+    },
+    {
+      "item": "rupecs_emblems:coral_crown"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_conjugation"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_conjugation"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:reefs_glory"
+  }
+}

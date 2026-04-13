@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:smoker"
+    },
+    {
+      "item": "rupecs_emblems:coin_necklace"
+    },
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "minecraft:cauldron"
+    },
+    {
+      "item": "rupecs_emblems:merchant_emblem"
+    },
+    {
+      "item": "minecraft:blast_furnace"
+    },
+    {
+      "item": "minecraft:composter"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:stonecutter"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:barterer_emblem"
+  }
+}

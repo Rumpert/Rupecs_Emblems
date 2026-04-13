@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:quartz"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:the_earth"
+  },
+  "success_chance": 0.13
+}

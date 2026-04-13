@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:overcharged_emblem"
+    },
+    {
+      "item": "rupecs_emblems:induction_emblem"
+    },
+    {
+      "item": "rupecs_emblems:battery"
+    },
+    {
+      "item": "rupecs_emblems:battery"
+    },
+    {
+      "item": "rupecs_emblems:battery"
+    },
+    {
+      "item": "rupecs_emblems:battery"
+    },
+    {
+      "item": "rupecs_emblems:tesla_bar"
+    },
+    {
+      "item": "rupecs_emblems:tesla_bar"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:thunder_emblem"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    },
+    {
+      "item": "rupecs_emblems:bent_fin"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:skin_transplant_emblem"
+  }
+}

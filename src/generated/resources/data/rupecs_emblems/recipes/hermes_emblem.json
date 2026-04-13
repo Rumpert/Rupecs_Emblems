@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:glass_lung"
+    },
+    {
+      "item": "rupecs_emblems:glass_lung"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:hermes_emblem"
+  }
+}

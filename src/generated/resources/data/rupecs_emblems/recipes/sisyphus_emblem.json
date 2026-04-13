@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:hill_emblem"
+    },
+    {
+      "item": "rupecs_emblems:boulder_emblem"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:sisyphus_emblem"
+  }
+}

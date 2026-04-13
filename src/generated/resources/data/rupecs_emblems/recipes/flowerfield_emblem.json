@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:prickle_vine_emblem"
+    },
+    {
+      "item": "rupecs_emblems:bouquet_emblem"
+    },
+    {
+      "item": "rupecs_emblems:ground_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tiny_bush"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:flowerfield_emblem"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:wisteria_flower"
+    },
+    {
+      "item": "rupecs_emblems:wisteria_flower"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:moon_fragment"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_conjugation"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_conjugation"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:moonglow"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:wave_emblem"
+    },
+    {
+      "item": "rupecs_emblems:sprinkler_emblem"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:current_emblem"
+  }
+}

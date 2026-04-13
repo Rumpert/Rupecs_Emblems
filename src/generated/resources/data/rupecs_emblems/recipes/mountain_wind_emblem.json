@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:dove_wing"
+    },
+    {
+      "item": "rupecs_emblems:dove_wing"
+    },
+    {
+      "item": "rupecs_emblems:dove_wing"
+    },
+    {
+      "item": "rupecs_emblems:dove_wing"
+    },
+    {
+      "item": "rupecs_emblems:dove_wing"
+    },
+    {
+      "item": "rupecs_emblems:humming_bird_emblem"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:mountain_wind_emblem"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:ruthless_guardian_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wood_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wood_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wood_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wood_emblem"
+    },
+    {
+      "item": "rupecs_emblems:wood_emblem"
+    },
+    {
+      "item": "rupecs_emblems:star_sapling"
+    },
+    {
+      "item": "rupecs_emblems:star_sapling"
+    },
+    {
+      "item": "rupecs_emblems:star_sapling"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:the_tank_emblem"
+  }
+}

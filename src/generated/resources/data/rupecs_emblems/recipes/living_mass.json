@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:shattered_void"
+    },
+    {
+      "item": "rupecs_emblems:shattered_void"
+    },
+    {
+      "item": "rupecs_emblems:shattered_void"
+    },
+    {
+      "item": "rupecs_emblems:shattered_void"
+    },
+    {
+      "item": "rupecs_emblems:moonglow"
+    },
+    {
+      "item": "rupecs_emblems:moonglow"
+    },
+    {
+      "item": "rupecs_emblems:sunray_beam"
+    },
+    {
+      "item": "rupecs_emblems:sunray_beam"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_void"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:living_mass"
+  }
+}

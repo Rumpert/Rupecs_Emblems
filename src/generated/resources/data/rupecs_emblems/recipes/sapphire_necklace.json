@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:salt_ore"
+    },
+    {
+      "item": "rupecs_emblems:salt_ore"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:bulbulium"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_conjugation"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_conjugation"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:sapphire_necklace"
+  }
+}

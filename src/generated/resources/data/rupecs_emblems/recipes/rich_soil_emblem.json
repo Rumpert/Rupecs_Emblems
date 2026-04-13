@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:verdant_core"
+    },
+    {
+      "item": "rupecs_emblems:bonsai"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "rupecs_emblems:soil_emblem"
+    },
+    {
+      "item": "rupecs_emblems:fertilized_emblem"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:rich_soil_emblem"
+  }
+}

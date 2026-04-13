@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:stone_emblem"
+    },
+    {
+      "item": "rupecs_emblems:crystal_emblem"
+    },
+    {
+      "item": "rupecs_emblems:dust_emblem"
+    },
+    {
+      "item": "rupecs_emblems:bone_emblem"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:cave_emblem"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:iron_plating"
+    },
+    {
+      "item": "rupecs_emblems:iron_plating"
+    },
+    {
+      "item": "rupecs_emblems:iron_plating"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:shielded_fossil"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_mass"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:ancient_remains"
+  }
+}

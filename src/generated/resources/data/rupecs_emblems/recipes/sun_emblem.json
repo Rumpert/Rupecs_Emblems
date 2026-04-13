@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    },
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    },
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    },
+    {
+      "item": "rupecs_emblems:sunlight_shard"
+    },
+    {
+      "item": "rupecs_emblems:the_torch"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "rupecs_emblems:flower_emblem"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:sun_emblem"
+  }
+}

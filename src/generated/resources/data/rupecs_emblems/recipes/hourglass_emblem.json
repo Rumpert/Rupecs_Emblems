@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "rupecs_emblems:day_emblem"
+    },
+    {
+      "item": "rupecs_emblems:heaven_emblem"
+    },
+    {
+      "item": "rupecs_emblems:night_emblem"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:hourglass_emblem"
+  }
+}

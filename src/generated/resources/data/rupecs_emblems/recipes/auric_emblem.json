@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:inferno_emblem"
+    },
+    {
+      "item": "rupecs_emblems:blizzard_emblem"
+    },
+    {
+      "item": "rupecs_emblems:coiled_emblem"
+    },
+    {
+      "item": "rupecs_emblems:steam_emblem"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:the_earth"
+    },
+    {
+      "item": "rupecs_emblems:cosmos_essence"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:auric_emblem"
+  }
+}

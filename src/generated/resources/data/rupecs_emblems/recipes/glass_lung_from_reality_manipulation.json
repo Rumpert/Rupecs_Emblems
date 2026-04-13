@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:glass"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:kelp"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:seagrass"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:glass_lung"
+  },
+  "success_chance": 0.1
+}

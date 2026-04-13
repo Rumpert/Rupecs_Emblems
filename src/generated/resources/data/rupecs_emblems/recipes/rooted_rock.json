@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:sapphire_necklace"
+    },
+    {
+      "item": "rupecs_emblems:sapphire_necklace"
+    },
+    {
+      "item": "rupecs_emblems:sapphire_necklace"
+    },
+    {
+      "item": "rupecs_emblems:sapphire_necklace"
+    },
+    {
+      "item": "rupecs_emblems:earf"
+    },
+    {
+      "item": "rupecs_emblems:earf"
+    },
+    {
+      "item": "rupecs_emblems:bone_crown"
+    },
+    {
+      "item": "rupecs_emblems:bone_crown"
+    },
+    {
+      "item": "rupecs_emblems:enthereal_void"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:rooted_rock"
+  }
+}

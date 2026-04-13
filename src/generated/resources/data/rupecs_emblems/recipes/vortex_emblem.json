@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:neptunes_gift"
+    },
+    {
+      "item": "rupecs_emblems:whirl_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tear_emblem"
+    },
+    {
+      "item": "rupecs_emblems:moon_emblem"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:vortex_emblem"
+  }
+}

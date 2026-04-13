@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    "G": {
+      "item": "rupecs_emblems:enthereal_mass"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GDG",
+    "GGG"
+  ],
+  "result": {
+    "item": "rupecs_emblems:manipulation_core"
+  },
+  "show_notification": true
+}

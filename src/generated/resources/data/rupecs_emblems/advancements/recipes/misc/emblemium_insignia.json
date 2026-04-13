@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_emblemium_sigil": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rupecs_emblems:emblemium_sigil"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rupecs_emblems:emblemium_insignia"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_emblemium_sigil",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rupecs_emblems:emblemium_insignia"
+    ]
+  },
+  "sends_telemetry_event": false
+}

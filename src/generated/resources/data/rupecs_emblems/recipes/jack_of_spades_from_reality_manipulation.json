@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:paper"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:paper"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:jack_of_spades"
+  },
+  "success_chance": 0.2
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:heaven_emblem"
+    },
+    {
+      "item": "rupecs_emblems:cave_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tree_emblem"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    },
+    {
+      "item": "rupecs_emblems:bread_piece"
+    },
+    {
+      "item": "rupecs_emblems:the_torch"
+    },
+    {
+      "item": "rupecs_emblems:the_torch"
+    },
+    {
+      "item": "rupecs_emblems:the_torch"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:return_emblem"
+  }
+}

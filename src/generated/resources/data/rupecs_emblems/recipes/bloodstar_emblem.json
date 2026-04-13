@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:blood_moon_emblem"
+    },
+    {
+      "item": "rupecs_emblems:supernova_emblem"
+    },
+    {
+      "item": "rupecs_emblems:sunflower_emblem"
+    },
+    {
+      "item": "rupecs_emblems:nightbloom_emblem"
+    },
+    {
+      "item": "rupecs_emblems:shattered_void"
+    },
+    {
+      "item": "rupecs_emblems:shattered_void"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:bloodstar_emblem"
+  }
+}

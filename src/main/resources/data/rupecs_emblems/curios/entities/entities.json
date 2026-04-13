@@ -1,0 +1,4 @@
+{
+  "entities": ["player"],
+  "slots": ["emblem","f_tier_emblem","e_tier_emblem","d_tier_emblem","c_tier_emblem","b_tier_emblem","a_tier_emblem","s_tier_emblem","ss_tier_emblem"]
+}

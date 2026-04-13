@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "S": {
+      "item": "rupecs_emblems:emblemium_sigil"
+    }
+  },
+  "pattern": [
+    "RLR",
+    "SSS",
+    "RLR"
+  ],
+  "result": {
+    "item": "rupecs_emblems:emblemium_insignia"
+  },
+  "show_notification": true
+}

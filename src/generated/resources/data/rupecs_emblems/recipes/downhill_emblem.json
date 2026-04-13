@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "rupecs_emblems:food"
+    },
+    {
+      "tag": "rupecs_emblems:food"
+    },
+    {
+      "tag": "rupecs_emblems:food"
+    },
+    {
+      "tag": "minecraft:dirt"
+    },
+    {
+      "tag": "minecraft:dirt"
+    },
+    {
+      "tag": "minecraft:dirt"
+    },
+    {
+      "tag": "forge:feathers"
+    },
+    {
+      "tag": "forge:feathers"
+    },
+    {
+      "tag": "forge:feathers"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:downhill_emblem"
+  }
+}

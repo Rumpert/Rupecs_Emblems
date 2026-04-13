@@ -1,0 +1,22 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "tag": "rupecs_emblems:meat"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:seagrass"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:bent_fin"
+  },
+  "success_chance": 0.12
+}
