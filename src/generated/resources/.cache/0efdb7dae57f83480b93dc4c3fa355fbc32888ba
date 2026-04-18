@@ -1,4 +1,4 @@
-// 1.20.1	2026-04-10T19:58:52.0833399	Item Models: rupecs_emblems
+// 1.20.1	2026-04-18T22:41:42.2056685	Item Models: rupecs_emblems
 93ae698dc47e3e4587d66327c719818744419fe1 assets/rupecs_emblems/models/item/absorber_emblem.json
 6a6abf129d5a49e724fcb33ed92510df3a8e505a assets/rupecs_emblems/models/item/ancient_emblemium.json
 3912db3326fd9a2b56a07ba9676839185af0af2e assets/rupecs_emblems/models/item/ancient_remains.json
@@ -271,6 +271,7 @@ fc38ea49b928da3b9f68673b7b11cfddaa106a4b assets/rupecs_emblems/models/item/under
 f3db2f3eafbef8d3713e25d218f0051c8511f6e3 assets/rupecs_emblems/models/item/vege_emblem.json
 a22a13614c939aef5acaf35e646b09f87dc0e09d assets/rupecs_emblems/models/item/verdant_core.json
 b1242b75e619222b7f214edf77de0f6fd0023c82 assets/rupecs_emblems/models/item/vine_emblem.json
+867055b8222e8d914fbb28b7f21d17f74a641883 assets/rupecs_emblems/models/item/volcano_emblem.json
 89a49c5009327e9b4c011064ebb9fdaaf0fdb943 assets/rupecs_emblems/models/item/vortex_emblem.json
 cc7ae62ebccb48667e899ba85d7b96f922874f20 assets/rupecs_emblems/models/item/warrior_emblem.json
 a57871e8fa43e7285e982e70a76206e496ebd36e assets/rupecs_emblems/models/item/water_emblem.json

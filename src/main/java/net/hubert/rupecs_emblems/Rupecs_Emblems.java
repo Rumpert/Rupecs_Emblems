@@ -10,6 +10,7 @@ import net.hubert.rupecs_emblems.config.RupecsEmblemsCommonConfig;
 import net.hubert.rupecs_emblems.datagen.ModLootModifiers;
 import net.hubert.rupecs_emblems.effect.ModEffects;
 import net.hubert.rupecs_emblems.entity.ModEntities;
+import net.hubert.rupecs_emblems.entity.custom.VolcanicShardProjectile;
 import net.hubert.rupecs_emblems.entity.render.*;
 import net.hubert.rupecs_emblems.item.ModCreativeModTabs;
 import net.hubert.rupecs_emblems.item.ModItems;
@@ -106,6 +107,7 @@ public class Rupecs_Emblems
         {
             EntityRenderers.register(ModEntities.MOON_ASTEROID.get(), MoonAsteroidProjectileRenderer::new);
             EntityRenderers.register(ModEntities.COMET_SHARD.get(), CometShardRender::new);
+            EntityRenderers.register(ModEntities.VOLCANIC_SHARD.get(), VolcanicShardRender::new);
             EntityRenderers.register(ModEntities.ICICLE.get(), IcicleRender::new);
             EntityRenderers.register(ModEntities.HEALING_NOTE.get(), HealingNoteRender::new);
             EntityRenderers.register(ModEntities.DAMAGING_NOTE.get(), DamagingNoteRender::new);

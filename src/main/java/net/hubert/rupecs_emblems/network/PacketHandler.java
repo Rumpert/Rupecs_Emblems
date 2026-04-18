@@ -107,6 +107,11 @@ public class PacketHandler {
                 .encoder(MoonWrathPacket::toBytes)
                 .consumerMainThread(MoonWrathPacket::handle)
                 .add();
+        net.messageBuilder(VolcanicPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(VolcanicPacket::new)
+                .encoder(VolcanicPacket::toBytes)
+                .consumerMainThread(VolcanicPacket::handle)
+                .add();
         // Register CooldownSyncPacket (server → client)
         net.messageBuilder(IciclePacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
                 .decoder(IciclePacket::new)

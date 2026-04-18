@@ -56,7 +56,7 @@ public class LullabyHandler {
                 player.getUUID(),
                 cooldownName,
                 cooldownTicks,
-                new ResourceLocation(Rupecs_Emblems.MOD_ID, "textures/ability/lullaby.png")
+                ResourceLocation.fromNamespaceAndPath(Rupecs_Emblems.MOD_ID, "textures/ability/lullaby.png")
         );
 
     }

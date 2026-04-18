@@ -19,6 +19,9 @@ public class ModEntities {
     public static final RegistryObject<EntityType<CometShardProjectile>> COMET_SHARD =
             ENTITY_TYPES.register("comet_shard", () -> EntityType.Builder.<CometShardProjectile>of(CometShardProjectile::new, MobCategory.MISC)
                     .sized(0.25F, 0.25F).build("comet_shard"));
+    public static final RegistryObject<EntityType<VolcanicShardProjectile>> VOLCANIC_SHARD =
+            ENTITY_TYPES.register("volcanic_shard", () -> EntityType.Builder.<VolcanicShardProjectile>of(VolcanicShardProjectile::new, MobCategory.MISC)
+                    .sized(0.25F, 0.25F).build("volcanic_shard"));
     public static final RegistryObject<EntityType<IcicleProjectile>> ICICLE =
             ENTITY_TYPES.register("icicle", () -> EntityType.Builder.<IcicleProjectile>of(IcicleProjectile::new, MobCategory.MISC)
                     .sized(0.25F, 0.25F).build("icicle"));

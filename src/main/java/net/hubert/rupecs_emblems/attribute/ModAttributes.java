@@ -377,6 +377,10 @@ public class ModAttributes {
             ATTRIBUTES.register("lung_capacity",
                     () -> new RangedAttribute("attribute.rupecs_emblems.lung_capacity", 300.0,0.0,1024.0)
                             .setSyncable(true));
+    public static final RegistryObject<Attribute> VOLCANIC =
+            ATTRIBUTES.register("volcanic",
+                    () -> new RangedAttribute("attribute.rupecs_emblems.volcanic", 0,0.0,1024.0)
+                            .setSyncable(true));
 
 
     public static void register(IEventBus eventBus) {

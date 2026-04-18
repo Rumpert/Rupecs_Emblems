@@ -1021,6 +1021,11 @@ public class ModItems {
                     Map.of(EmblemClasses.PASSIVE, 1),
                     "Higher lung capacity"));
 
+    public static final RegistryObject<Item> VOLCANO_EMBLEM = ITEMS.register("volcano_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.E, List.of(EmblemTypes.FIRE, EmblemTypes.GROUND),
+                    Map.of(EmblemClasses.ACTIVE, 1),
+                    "Press Primary Emblem Ability to spawn volcanic shards"));
+
 
 
 
