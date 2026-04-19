@@ -3,15 +3,22 @@ package net.hubert.rupecs_emblems.item;
 import net.hubert.rupecs_emblems.Rupecs_Emblems;
 import net.hubert.rupecs_emblems.block.ModBlocks;
 import net.hubert.rupecs_emblems.item.custom.ModEmblemItem;
+import net.hubert.rupecs_emblems.recipe.EntherealSelectorRecipe;
+import net.hubert.rupecs_emblems.recipe.ModRecipes;
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.NotNull;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -57,7 +64,21 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.EMBLEMIUM_SIGIL.get());
                         pOutput.accept(ModItems.EMBLEMIUM_INSIGNIA.get());
 
-                        pOutput.accept(ModItems.EMBLEMENTAL_ENTHERA.get());
+                        boolean hasMore = true;
+                        int currVal = 0;
+                        while (hasMore) {
+                            if (hasEntherRecipe(ModItems.EMBLEMENTAL_ENTHERA.get(), currVal)){
+                                pOutput.accept(getEntherVersion(ModItems.EMBLEMENTAL_ENTHERA.get(),currVal));
+                                currVal++;
+                            }
+                            else if (currVal == 0){
+                                pOutput.accept(ModItems.EMBLEMENTAL_ENTHERA.get());
+                                currVal++;
+                            }
+                            else {
+                                hasMore=false;
+                            }
+                        }
 
                         pOutput.accept(ModItems.ENTHEREAL_MASS.get());
                         pOutput.accept(ModItems.ENTHEREAL_CONJUGATION.get());
@@ -148,6 +169,11 @@ public class ModCreativeModTabs {
                         for (RegistryObject<Item> item : ModItems.ITEMS.getEntries()){
                             if (item.get() instanceof ModEmblemItem){
                                 pOutput.accept(item.get());
+                                if (hasAscendedRecipe(item.get())) {
+                                    // Get or create the ascended version
+                                    ItemStack ascendedItem = getAscendedVersion(item.get());
+                                    pOutput.accept(ascendedItem);
+                                }
                             }
                         }
 
@@ -172,7 +198,54 @@ public class ModCreativeModTabs {
 
 
                     }).build());
+
+    private static ItemStack getAscendedVersion(@NotNull Item item) {
+        ItemStack stack = item.getDefaultInstance();
+        stack.getOrCreateTag().putInt("ascended", 1);
+        return stack;
+    }
+    private static ItemStack getEntherVersion(@NotNull Item item, int entherLevel) {
+        ItemStack stack = item.getDefaultInstance();
+        stack.getOrCreateTag().putInt("enther", entherLevel);
+        return stack;
+    }
+
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
+    }
+    private static boolean hasAscendedRecipe(Item baseItem) {
+        // Get registry name from ForgeRegistries
+        ResourceLocation registryName = net.minecraftforge.registries.ForgeRegistries.ITEMS.getKey(baseItem);
+        if (registryName == null) return false;
+
+        // Build recipe ID (e.g., "rupecs_emblems:plant_emblem_ascended_from_ethereal_selection")
+        ResourceLocation recipeId = new ResourceLocation(
+                Rupecs_Emblems.MOD_ID,
+                registryName.getPath() + "_ascended_from_ethereal_selection"
+        );
+
+        // Check if recipe exists by ID
+        return Minecraft.getInstance().level != null &&
+                Minecraft.getInstance().level.getRecipeManager()
+                        .byKey(recipeId)
+                        .isPresent();
+    }
+    private static boolean hasEntherRecipe(Item baseItem, int entherLevel) {
+        // Get registry name from ForgeRegistries
+        ResourceLocation registryName = net.minecraftforge.registries.ForgeRegistries.ITEMS.getKey(baseItem);
+        if (registryName == null) return false;
+
+        // Build recipe ID (e.g., "rupecs_emblems:plant_emblem_ascended_from_ethereal_selection")
+        ResourceLocation recipeId = new ResourceLocation(
+                Rupecs_Emblems.MOD_ID,
+                registryName.getPath() + "-e"+entherLevel+"_from_reality_manipulation"
+        );
+        System.out.println(recipeId);
+
+        // Check if recipe exists by ID
+        return Minecraft.getInstance().level != null &&
+                Minecraft.getInstance().level.getRecipeManager()
+                        .byKey(recipeId)
+                        .isPresent();
     }
 }

@@ -337,7 +337,7 @@ public class EmblemEffectProvider {
     private static final double ECLIPSE_EMBLEM_LUNARSYNTHESIS_BONUS = 1;
     private static final double LUAU_EMBLEM_LUAU_BONUS = 1;
     private static final double HERMES_EMBLEM_LUNG_CAPACITY_BONUS = 30;
-    private static final double VOLCANO_EMBLEM_VOLCANIC_BONUS = 3;
+    private static final double VOLCANO_EMBLEM_VOLCANIC_BONUS = 1;
 
     private static final double ATOMIC_CAVE_EMBLEM_MOVEMENT_SPEED_BONUS = 0.04;
     private static final double ATOMIC_CAVE_EMBLEM_FORTUNE_FIST_BONUS = 5;
