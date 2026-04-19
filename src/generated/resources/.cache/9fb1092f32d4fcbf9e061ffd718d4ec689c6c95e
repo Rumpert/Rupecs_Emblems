@@ -1,4 +1,4 @@
-// 1.20.1	2026-04-12T22:10:20.4198979	Recipes
+// 1.20.1	2026-04-19T18:13:50.1428469	Recipes
 cbc20acffb1714e58a197add9b2195a32f3f639a data/minecraft/advancements/recipes/misc/tesla_bar_from_discaptured_energy.json
 b8c2dd2d91bec8887e247246f7327927ca1f19b0 data/minecraft/advancements/recipes/misc/tesla_bar_from_plating_battery.json
 9dc29b080197f1b79bcbd89290f9aa534e830fc1 data/minecraft/recipes/tesla_bar_from_discaptured_energy.json
@@ -252,6 +252,7 @@ eb41af848ef9c103261ab9bcabdc8312fc60c3cb data/rupecs_emblems/advancements/recipe
 769f3ed45ae2833cdae5903cc5cf767f16313ead data/rupecs_emblems/advancements/recipes/misc/untuned_emblem.json
 07938eec44f9498aff1ac77ec0672545bcf70145 data/rupecs_emblems/advancements/recipes/misc/vege_emblem.json
 15236e3502b52ad7d8a44417c3f8e2af68f9099a data/rupecs_emblems/advancements/recipes/misc/vine_emblem.json
+e613ac88aed8fd394516502f78fc7b017cd5be17 data/rupecs_emblems/advancements/recipes/misc/volcano_emblem.json
 aa4660532f8b2eb1bd86ded89e1b3d3991412390 data/rupecs_emblems/advancements/recipes/misc/vortex_emblem.json
 e602cc98b67801f6c627040d6e334fe433d8225d data/rupecs_emblems/advancements/recipes/misc/warrior_emblem.json
 ce3f65a49a38df14bad341a3348f1e6956ed2a90 data/rupecs_emblems/advancements/recipes/misc/water_emblem.json
@@ -611,6 +612,7 @@ dfbeaaf162777484272c8be793010e9de6b453cb data/rupecs_emblems/recipes/vege_emblem
 a971897fd386921e0f3435e597e7487ed2d4f8e1 data/rupecs_emblems/recipes/verdant_core_from_ethereal_selection-void.json
 b6ee0bf4377820684b95e9cfc50ce0ee2b495c92 data/rupecs_emblems/recipes/verdant_core_from_reality_manipulation.json
 e93ccd57cff5c4ff944dd156c7b2b609b5f65f23 data/rupecs_emblems/recipes/vine_emblem.json
+93e17e35e4c38066fca8d0fab937f23df70c93b1 data/rupecs_emblems/recipes/volcano_emblem.json
 5efa08ad3906af6425f5e4530768703095567f71 data/rupecs_emblems/recipes/vortex_emblem.json
 71d325e62d7d60357a9edd74f576904fdca26b59 data/rupecs_emblems/recipes/warrior_emblem.json
 b47220dfad83c0d38201db55e1df3e9ab5114535 data/rupecs_emblems/recipes/water_emblem.json

@@ -2061,6 +2061,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.GLASS_LUNG.get()), has(ModItems.GLASS_LUNG.get()))
                 .save(pWriter);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.VOLCANO_EMBLEM.get(), 1)
+                .requires(ModItems.BURNING_CLOTH.get(), 2)
+                .requires(Items.OBSIDIAN)
+                .requires(Items.FIRE_CHARGE, 3)
+                .unlockedBy(getHasName(ModItems.BURNING_CLOTH.get()), has(ModItems.BURNING_CLOTH.get()))
+                .save(pWriter);
+
 
 
         RealityManipulationRecipeBuilder.realityManipulation(ModItems.VERDANT_CORE.get(), 1)
