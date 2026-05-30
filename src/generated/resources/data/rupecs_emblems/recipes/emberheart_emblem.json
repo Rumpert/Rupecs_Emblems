@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:magma_emblem"
+    },
+    {
+      "item": "rupecs_emblems:northern_lights"
+    },
+    {
+      "item": "rupecs_emblems:northern_lights"
+    },
+    {
+      "item": "rupecs_emblems:blazing_flask"
+    },
+    {
+      "item": "rupecs_emblems:blazing_flask"
+    },
+    {
+      "item": "rupecs_emblems:blazing_flask"
+    },
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:emberheart_emblem"
+  }
+}

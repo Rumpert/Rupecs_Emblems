@@ -38,7 +38,9 @@ public class PulsePacket {
                 Vec3 direction = entity.position().subtract(player.position()).normalize();
 
                 entity.setDeltaMovement(entity.getDeltaMovement().add(direction.scale(0.5 * pulseAttr.getValue())));
-                zapAndBounce(player.level(), player, entity, 2, new ArrayList<>(), 5,5);
+                zapAndBounce(player.level(), player, entity, 2, new ArrayList<>(), 5, 5);
+
+
 
             }
 

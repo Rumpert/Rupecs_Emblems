@@ -382,6 +382,19 @@ public class ModAttributes {
                     () -> new RangedAttribute("attribute.rupecs_emblems.volcanic", 0,0.0,1024.0)
                             .setSyncable(true));
 
+    public static final RegistryObject<Attribute> ASHEN =
+            ATTRIBUTES.register("ashen",
+                    () -> new RangedAttribute("attribute.rupecs_emblems.ashen", 0,0.0,1024.0)
+                            .setSyncable(true));
+    public static final RegistryObject<Attribute> CINDERWALL =
+            ATTRIBUTES.register("cinderwall",
+                    () -> new RangedAttribute("attribute.rupecs_emblems.cinderwall", 0,0.0,1024.0)
+                            .setSyncable(true));
+    public static final RegistryObject<Attribute> EMBERHEART =
+            ATTRIBUTES.register("emberheart",
+                    () -> new RangedAttribute("attribute.rupecs_emblems.emberheart", 0,0.0,1024.0)
+                            .setSyncable(true));
+
 
     public static void register(IEventBus eventBus) {
         ATTRIBUTES.register(eventBus);

@@ -49,6 +49,7 @@
   "item.rupecs_emblems.coral_crown": "Coral Crown",
   "item.rupecs_emblems.salt_ore": "Salt Ore",
   "item.rupecs_emblems.bubblium": "Bubblium",
+  "item.rupecs_emblems.blazing_flask": "Blazing Flask",
 
 
   "item.rupecs_emblems.eagle_beak": "Eagle Beak",
@@ -66,6 +67,7 @@
   "item.rupecs_emblems.owshun": "Owshun",
   "item.rupecs_emblems.earf": "Earf",
   "item.rupecs_emblems.bone_crown": "Bone Crown",
+  "item.rupecs_emblems.northern_lights": "Northern Lights",
 
 
   "item.rupecs_emblems.living_mass": "Living Mass",
@@ -303,6 +305,9 @@
   "item.rupecs_emblems.the_tank_emblem": "The Tank Emblem",
   "item.rupecs_emblems.hermes_emblem": "Hermes Emblem",
   "item.rupecs_emblems.volcano_emblem": "Volcano Emblem",
+  "item.rupecs_emblems.ashen_emblem": "Ashen Emblem",
+  "item.rupecs_emblems.cinderwall_emblem": "Cinderwall Emblem",
+  "item.rupecs_emblems.emberheart_emblem": "Emberheart Emblem",
 
 
   "item.rupecs_emblems.foreseen_emblem": "Emblem of The Foreseen",
@@ -420,6 +425,9 @@
   "attribute.rupecs_emblems.luau": "Luau",
   "attribute.rupecs_emblems.lung_capacity": "Lung Capacity",
   "attribute.rupecs_emblems.volcanic": "Volcanic",
+  "attribute.rupecs_emblems.ashen": "Ashen",
+  "attribute.rupecs_emblems.cinderwall": "Cinderwall",
+  "attribute.rupecs_emblems.emberheart": "Emberheart",
 
 
 

@@ -1,4 +1,4 @@
-// 1.20.1	2026-04-18T22:41:42.2056685	Item Models: rupecs_emblems
+// 1.20.1	2026-05-03T19:26:31.0332229	Item Models: rupecs_emblems
 93ae698dc47e3e4587d66327c719818744419fe1 assets/rupecs_emblems/models/item/absorber_emblem.json
 6a6abf129d5a49e724fcb33ed92510df3a8e505a assets/rupecs_emblems/models/item/ancient_emblemium.json
 3912db3326fd9a2b56a07ba9676839185af0af2e assets/rupecs_emblems/models/item/ancient_remains.json
@@ -6,6 +6,7 @@ d69f6b29d41347f70f74c3181a712100030b6316 assets/rupecs_emblems/models/item/anthe
 6395ab2ed0573a6b45817cbeaad1306a6387bea4 assets/rupecs_emblems/models/item/anvil_emblem.json
 b47e305a1ecdb9a979e82a2e74b347abbf2d0dde assets/rupecs_emblems/models/item/apple_emblem.json
 2c7b85a8857e68520a3070aff1bc2d4362ec469b assets/rupecs_emblems/models/item/archer_emblem.json
+5897240e866d9139d13d15efb4b27d5a5128a854 assets/rupecs_emblems/models/item/ashen_emblem.json
 1044a38cd060fcae2b66740901adeab6dbf6e21b assets/rupecs_emblems/models/item/assassin_emblem.json
 2499c5d3e6ee250f7c15604ded3ba7721470a799 assets/rupecs_emblems/models/item/atomic_cave_emblem.json
 620b266be718580482b06425ec116f52327c1195 assets/rupecs_emblems/models/item/auric_emblem.json
@@ -17,6 +18,7 @@ b47e305a1ecdb9a979e82a2e74b347abbf2d0dde assets/rupecs_emblems/models/item/apple
 c1877ff19c3b69206c122352afac27b710c14543 assets/rupecs_emblems/models/item/blacksmith_emblem.json
 112c221525e217bf28010824db80768f09ce3cd8 assets/rupecs_emblems/models/item/black_pearl.json
 598f7336b72e23b347e552766b6a8a216157658a assets/rupecs_emblems/models/item/black_rose_emblem.json
+44d047f69e1d6d342df50062f07a4506f8865203 assets/rupecs_emblems/models/item/blazing_flask.json
 fd9a9bc082df33176bf9f5921396dc33da3f129a assets/rupecs_emblems/models/item/blessed_emblemium.json
 f6b159a7ca9aecbcf6d42ea3af5bee8eb6a5ab0a assets/rupecs_emblems/models/item/blizzard_emblem.json
 dcc01ef9e7eab9041ad5ab90f09ebbc8c03b9a88 assets/rupecs_emblems/models/item/bloodstar_emblem.json
@@ -42,6 +44,7 @@ cf99738dceb313f9f252af2e117568eebf35cd2b assets/rupecs_emblems/models/item/bubbl
 8a70792c7b520549c3c94f2d602d4605480017d3 assets/rupecs_emblems/models/item/cave_emblem.json
 83b4c1cc3383bd4d976f5ee66fb3d92561d2511f assets/rupecs_emblems/models/item/champion_emblem.json
 ad852d11e07b6ae0daa06cab00beed20187a87e3 assets/rupecs_emblems/models/item/chord_emblem.json
+4f2036c5028956c0ed61bb6078f56c5b62db6ba4 assets/rupecs_emblems/models/item/cinderwall_emblem.json
 5736b081bead6681859a3dd2caa57dfa6ad74806 assets/rupecs_emblems/models/item/clay_emblem.json
 92cba4742dae63680b1bb4d28f8a797ce1763bf9 assets/rupecs_emblems/models/item/cloth_emblem.json
 f307f522d778cb6c623245d2975d35659bd34ea4 assets/rupecs_emblems/models/item/cloud_emblemium.json
@@ -77,6 +80,7 @@ d7309f5bb2b165fb4a5a4a6f9a1bf82a321fdbf2 assets/rupecs_emblems/models/item/easte
 5d2898acc250323045e3ad64d2f8d2cca441fbec assets/rupecs_emblems/models/item/edens_vines.json
 faa18316cbf26a937890608d113ec902850be783 assets/rupecs_emblems/models/item/electromagnet_emblem.json
 2ee574576e7f196ffa7b1a2cd4009302bf700361 assets/rupecs_emblems/models/item/electro_emblem.json
+5ee56b62b8f91b9d1dc3457f61a9c80cf36d2189 assets/rupecs_emblems/models/item/emberheart_emblem.json
 9f2e2d362f9d3b10a3c481ed2090972def50fbe2 assets/rupecs_emblems/models/item/emblemental_enthera.json
 77ee7fb1b873a965bba3ab6cc215f36eac63d36d assets/rupecs_emblems/models/item/emblemium_insignia.json
 e0a4ec7fc6c247140990c95053150d3932234a0d assets/rupecs_emblems/models/item/emblemium_sigil.json
@@ -171,6 +175,7 @@ cda62510cacd674dd940df137216878700dd34b7 assets/rupecs_emblems/models/item/neptu
 8f42950d5260f8f1ac58f4e33787287fd6512a5f assets/rupecs_emblems/models/item/nether_emblemium.json
 39af71cf84157e9c99b3a75c62d3386694df62c7 assets/rupecs_emblems/models/item/nightbloom_emblem.json
 e694c1426ec4dd3d79f26aeb45ab3d83dac2bb82 assets/rupecs_emblems/models/item/night_emblem.json
+66b670978a82065760e7b129885889b403dfdfcb assets/rupecs_emblems/models/item/northern_lights.json
 d0638cd7f699e4c4f47299a9a147cbe99385431b assets/rupecs_emblems/models/item/note_emblem.json
 674a4d55e446ee61e6472b5bdbd322d1e32b8dfa assets/rupecs_emblems/models/item/nutritious_emblem.json
 55b660ae918060278bc394aa97684f1bc35d62b1 assets/rupecs_emblems/models/item/orchid_emblem.json

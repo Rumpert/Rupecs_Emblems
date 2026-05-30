@@ -23,7 +23,7 @@ import net.minecraftforge.fml.common.Mod;
 import java.util.List;
 import java.util.Map;
 
-@Mod.EventBusSubscriber(modid = Rupecs_Emblems.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid = Rupecs_Emblems.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
 public class PulseHandler {
     private static final String cooldownName = "Pulse";
     public static final KeyMapping PULSE_KEY = Keybinds.INSTANCE.primaryEmblemAbility;

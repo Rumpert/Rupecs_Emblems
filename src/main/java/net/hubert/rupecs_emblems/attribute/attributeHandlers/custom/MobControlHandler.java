@@ -10,6 +10,11 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.damagesource.DamageSources;
+import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
@@ -27,8 +32,10 @@ import net.minecraft.world.level.levelgen.structure.*;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.event.entity.living.LivingAttackEvent;
 import net.minecraftforge.event.entity.living.LivingChangeTargetEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
+import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -48,6 +55,41 @@ public class MobControlHandler {
             System.out.println(entity.getRemainingFireTicks());
             if (entity.level().random.nextFloat() > 0.5f) {
                 entity.setRemainingFireTicks(entity.getRemainingFireTicks() - 1);
+            }
+        }
+    }
+    private static final Map<UUID, Integer> playerHealTicks = new HashMap<>();
+
+    @SubscribeEvent
+    public static void onLivingAttack(LivingAttackEvent event) {
+        if (!(event.getEntity() instanceof Player player)) return;
+
+        DamageSource source = event.getSource();
+
+        // Check for fire damage
+        boolean isFireDamage = source.getMsgId().equals("inFire") ||
+                source.getMsgId().equals("onFire") ||
+                source.getMsgId().equals("lava");
+
+        if (isFireDamage) {
+            double emberheartValue = player.getAttributeValue(ModAttributes.EMBERHEART.get());
+            if (emberheartValue > 0) {
+                event.setCanceled(true);
+                UUID playerId = player.getUUID();
+                int ticks = playerHealTicks.getOrDefault(playerId, 0);
+
+                if (ticks >= 20) { // Heal every second
+                    player.heal((float) emberheartValue);
+                    playerHealTicks.put(playerId, 0);
+
+                } else {
+                    playerHealTicks.put(playerId, ticks + 1);
+                }
+            }
+        }
+        if (source.type() == player.damageSources().fall().type()){
+            if (player.getAttributeValue(ModAttributes.MOON_FEET.get()) > 0){
+                event.setCanceled(true);
             }
         }
     }

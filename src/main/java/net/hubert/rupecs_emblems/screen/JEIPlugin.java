@@ -188,6 +188,14 @@ public class JEIPlugin implements IModPlugin {
         );
 
         registration.addIngredientInfo(
+                new ItemStack(ModItems.BLAZING_FLASK.get()),
+                VanillaTypes.ITEM_STACK,
+                Component.literal("Doesn't spawn naturally."),
+                Component.literal("\"BRIGHTEST HEART. Its twinkling is the one moment when wishes are granted. The wandering galaxy is now a UTOPIA (Only starlight)\"").withStyle(ChatFormatting.ITALIC),
+                Component.literal("Takuya Ichihashi - \"Brightest Heart\"").withStyle(ChatFormatting.DARK_GRAY)
+        );
+
+        registration.addIngredientInfo(
                 new ItemStack(ModItems.COSMOS_ESSENCE.get()),
                 VanillaTypes.ITEM_STACK,
                 Component.literal("Doesn't spawn naturally."),
@@ -868,6 +876,30 @@ public class JEIPlugin implements IModPlugin {
         registration.addIngredientInfo(new ItemStack(ModItems.CACTUS_EMBLEM.get()), VanillaTypes.ITEM_STACK,
                 Component.literal("Cactus Emblem Effects:\n" +
                         "+1 Thorns"));
+
+        registration.addIngredientInfo(new ItemStack(ModItems.ASHEN_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("Ashen Emblem Effects:\n" +
+                        "+1 Ashen\n"+
+                        "(Multiplies the time between being hurt while on fire)"));
+        registration.addIngredientInfo(new ItemStack(ModItems.ASHEN_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("Ascended Ashen Emblem Effects:\n" +
+                        "+10 Ashen"));
+
+        registration.addIngredientInfo(new ItemStack(ModItems.CINDERWALL_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("Cinderwall Emblem Effects:\n" +
+                        "+1 Cinderwall\n"+
+                        "(Sets mobs that hurt you on fire)"));
+        registration.addIngredientInfo(new ItemStack(ModItems.CINDERWALL_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("Ascended Cinderwall Emblem Effects:\n" +
+                        "+10 Cinderwall"));
+
+        registration.addIngredientInfo(new ItemStack(ModItems.EMBERHEART_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("Emberheart Emblem Effects:\n" +
+                        "+1 Emberheart\n"+
+                        "(Fire heals instead of damaging)"));
+        registration.addIngredientInfo(new ItemStack(ModItems.EMBERHEART_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("Ascended Emberheart Emblem Effects:\n" +
+                        "+5 Emberheart"));
 
         registration.addIngredientInfo(new ItemStack(ModItems.HERMES_EMBLEM.get()), VanillaTypes.ITEM_STACK,
                 Component.literal("Hermes Emblem Effects:\n" +

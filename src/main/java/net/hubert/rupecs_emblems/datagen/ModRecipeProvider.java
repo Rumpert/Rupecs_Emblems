@@ -227,6 +227,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.ENTHEREAL_MASS.get(), 3)
                 .unlockedBy(getHasName(ModItems.BULBULIUM.get()), has(ModItems.BULBULIUM.get()))
                 .save(pWriter);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.BLAZING_FLASK.get(), 1)
+                .requires(ModItems.BURNING_CLOTH.get(), 3)
+                .requires(ModItems.SUNLIGHT_SHARD.get(), 3)
+                .requires(ModItems.ENTHEREAL_MASS.get(), 3)
+                .unlockedBy(getHasName(ModItems.BURNING_CLOTH.get()), has(ModItems.BURNING_CLOTH.get()))
+                .save(pWriter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.SEED_POUCH.get(), 1)
                 .requires(ModItems.VERDANT_CORE.get(), 3)
                 .requires(ModItems.BONSAI.get(), 3)
@@ -321,6 +327,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.THE_EARTH.get(), 4)
                 .requires(ModItems.ENTHEREAL_CONJUGATION.get(), 2)
                 .unlockedBy(getHasName(ModItems.DOVE_WING.get()), has(ModItems.DOVE_WING.get()))
+                .save(pWriter);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.NORTHERN_LIGHTS.get(), 1)
+                .requires(ModItems.BLAZING_FLASK.get(), 2)
+                .requires(ModItems.MOON_FRAGMENT.get(), 4)
+                .requires(ModItems.ENTHEREAL_CONJUGATION.get(), 2)
+                .unlockedBy(getHasName(ModItems.BLAZING_FLASK.get()), has(ModItems.BLAZING_FLASK.get()))
                 .save(pWriter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.TINY_BUSH.get(), 1)
                 .requires(ModItems.SEED_POUCH.get(), 2)
@@ -713,7 +725,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.SUPERNOVA_EMBLEM.get(), 1)
                 .requires(ModItems.SUN_EMBLEM.get())
                 .requires(ModItems.INFERNO_EMBLEM.get())
-                .requires(ModItems.MAGMA_EMBLEM.get())
+                .requires(ModItems.EMBERHEART_EMBLEM.get())
                 .requires(ModItems.FIRE_EMBLEM.get())
                 .requires(Items.NETHERITE_INGOT)
                 .requires(ModItems.BURNING_CLOTH.get(), 2)
@@ -2068,6 +2080,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.BURNING_CLOTH.get()), has(ModItems.BURNING_CLOTH.get()))
                 .save(pWriter);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.ASHEN_EMBLEM.get(), 1)
+                .requires(ModItems.BURNING_CLOTH.get(), 2)
+                .requires(Items.COAL,4)
+                .requires(Items.FIRE_CHARGE, 3)
+                .unlockedBy(getHasName(ModItems.BURNING_CLOTH.get()), has(ModItems.BURNING_CLOTH.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.CINDERWALL_EMBLEM.get(), 1)
+                .requires(ModItems.BURNING_CLOTH.get(), 4)
+                .requires(Items.NETHERRACK, 5)
+                .unlockedBy(getHasName(ModItems.BURNING_CLOTH.get()), has(ModItems.BURNING_CLOTH.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.EMBERHEART_EMBLEM.get(), 1)
+                .requires(ModItems.MAGMA_EMBLEM.get())
+                .requires(ModItems.NORTHERN_LIGHTS.get(), 2)
+                .requires(ModItems.BLAZING_FLASK.get(), 3)
+                .requires(Items.NETHERRACK, 3)
+                .unlockedBy(getHasName(ModItems.NORTHERN_LIGHTS.get()), has(ModItems.NORTHERN_LIGHTS.get()))
+                .save(pWriter);
+
 
 
         RealityManipulationRecipeBuilder.realityManipulation(ModItems.VERDANT_CORE.get(), 1)
@@ -2492,11 +2525,29 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .withIntTag("ascended", 1)
                 .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.FARMER_EMBLEM.get()+ "_ascended_from_ethereal_selection" );
 
+        EntherealSelectorRecipeBuilder.etherealSelection(ModItems.ASHEN_EMBLEM.get(), 1)
+                .requires(ModItems.EMBLEMENTAL_ENTHERA.get(), tag -> tag.hasIntHigher("enther", 5))
+                .requires(ModItems.ASHEN_EMBLEM.get())
+                .withIntTag("ascended", 1)
+                .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.ASHEN_EMBLEM.get()+ "_ascended_from_ethereal_selection" );
+
+        EntherealSelectorRecipeBuilder.etherealSelection(ModItems.CINDERWALL_EMBLEM.get(), 1)
+                .requires(ModItems.EMBLEMENTAL_ENTHERA.get(), tag -> tag.hasIntHigher("enther", 5))
+                .requires(ModItems.CINDERWALL_EMBLEM.get())
+                .withIntTag("ascended", 1)
+                .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.CINDERWALL_EMBLEM.get()+ "_ascended_from_ethereal_selection" );
+
         EntherealSelectorRecipeBuilder.etherealSelection(ModItems.ORCHID_EMBLEM.get(), 1)
                 .requires(ModItems.EMBLEMENTAL_ENTHERA.get(), tag -> tag.hasIntHigher("enther", 6))
                 .requires(ModItems.ORCHID_EMBLEM.get())
                 .withIntTag("ascended", 1)
                 .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.ORCHID_EMBLEM.get()+ "_ascended_from_ethereal_selection" );
+
+        EntherealSelectorRecipeBuilder.etherealSelection(ModItems.EMBERHEART_EMBLEM.get(), 1)
+                .requires(ModItems.EMBLEMENTAL_ENTHERA.get(), tag -> tag.hasIntHigher("enther", 7))
+                .requires(ModItems.EMBERHEART_EMBLEM.get())
+                .withIntTag("ascended", 1)
+                .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.EMBERHEART_EMBLEM.get()+ "_ascended_from_ethereal_selection" );
 
         for (RegistryObject<Item> item : ModItems.ITEMS.getEntries()){
             if (item.get() instanceof ItemiumItem itemiumItem){

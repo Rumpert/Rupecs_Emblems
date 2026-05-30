@@ -1026,6 +1026,21 @@ public class ModItems {
                     Map.of(EmblemClasses.ACTIVE, 1),
                     "Press Primary Emblem Ability to spawn volcanic shards"));
 
+    public static final RegistryObject<Item> ASHEN_EMBLEM = ITEMS.register("ashen_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.E, List.of(EmblemTypes.FIRE),
+                    Map.of(EmblemClasses.PASSIVE, 1),
+                    "Fire is less harmful"));
+
+    public static final RegistryObject<Item> CINDERWALL_EMBLEM = ITEMS.register("cinderwall_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.E, List.of(EmblemTypes.FIRE),
+                    Map.of(EmblemClasses.PASSIVE, 1),
+                    "Set attackers on fire"));
+
+    public static final RegistryObject<Item> EMBERHEART_EMBLEM = ITEMS.register("emberheart_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.C, List.of(EmblemTypes.FIRE),
+                    Map.of(EmblemClasses.PASSIVE, 2),
+                    "Fire heals instead of damaging"));
+
 
 
 
@@ -1146,6 +1161,9 @@ public class ModItems {
     public static final RegistryObject<Item> BUBBLIUM = ITEMS.register("bubblium",
             () -> new ItemiumItem(new Item.Properties(), List.of(EmblemTypes.ELEMENTAL, EmblemTypes.WATER)));
 
+    public static final RegistryObject<Item> BLAZING_FLASK = ITEMS.register("blazing_flask",
+            () -> new ItemiumItem(new Item.Properties(), List.of(EmblemTypes.FIRE, EmblemTypes.ASTRAL)));
+
 
 
     public static final RegistryObject<Item> EAGLE_BEAK = ITEMS.register("eagle_beak",
@@ -1192,6 +1210,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> EARF = ITEMS.register("earf",
             () -> new ItemiumItem(new Item.Properties(), List.of(EmblemTypes.PLANT, EmblemTypes.NATURAL, EmblemTypes.GROUND)));
+
+    public static final RegistryObject<Item> NORTHERN_LIGHTS = ITEMS.register("northern_lights",
+            () -> new ItemiumItem(new Item.Properties(), List.of(EmblemTypes.FIRE, EmblemTypes.ASTRAL, EmblemTypes.CELESTIAL)));
 
 
 

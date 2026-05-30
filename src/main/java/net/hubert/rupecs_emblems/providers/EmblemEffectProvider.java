@@ -338,6 +338,9 @@ public class EmblemEffectProvider {
     private static final double LUAU_EMBLEM_LUAU_BONUS = 1;
     private static final double HERMES_EMBLEM_LUNG_CAPACITY_BONUS = 30;
     private static final double VOLCANO_EMBLEM_VOLCANIC_BONUS = 1;
+    private static final double ASHEN_EMBLEM_ASHEN_BONUS = 1;
+    private static final double CINDERWALL_EMBLEM_CINDERWALL_BONUS = 1;
+    private static final double EMBERHEART_EMBLEM_EMBERHEART_BONUS = 1;
 
     private static final double ATOMIC_CAVE_EMBLEM_MOVEMENT_SPEED_BONUS = 0.04;
     private static final double ATOMIC_CAVE_EMBLEM_FORTUNE_FIST_BONUS = 5;
@@ -794,6 +797,18 @@ public class EmblemEffectProvider {
             case "hermes_emblem":
                 applyStaticModifier(entity, ModAttributes.LUNG_CAPACITY.get(), emblemItem.getUniqueID(),
                         "Hermes Emblem Bonus", HERMES_EMBLEM_LUNG_CAPACITY_BONUS *7, AttributeModifier.Operation.ADDITION);
+                break;
+            case "ashen_emblem":
+                applyStaticModifier(entity, ModAttributes.ASHEN.get(), emblemItem.getUniqueID(),
+                        "Ashen Emblem Bonus", ASHEN_EMBLEM_ASHEN_BONUS*10, AttributeModifier.Operation.ADDITION);
+                break;
+            case "cinderwall_emblem":
+                applyStaticModifier(entity, ModAttributes.CINDERWALL.get(), emblemItem.getUniqueID(),
+                        "Cinderwall Emblem Bonus", CINDERWALL_EMBLEM_CINDERWALL_BONUS*10, AttributeModifier.Operation.ADDITION);
+                break;
+            case "emberheart_emblem":
+                applyStaticModifier(entity, ModAttributes.EMBERHEART.get(), emblemItem.getUniqueID(),
+                        "Emberheart Emblem Bonus", EMBERHEART_EMBLEM_EMBERHEART_BONUS*5, AttributeModifier.Operation.ADDITION);
                 break;
             case "farmer_emblem":
                 applyStaticModifier(entity, ModAttributes.FARMERS_BLESSING.get(), emblemItem.getUniqueID(),
@@ -1788,6 +1803,18 @@ public class EmblemEffectProvider {
             case "volcano_emblem":
                 applyStaticModifier(entity, ModAttributes.VOLCANIC.get(), emblemItem.getUniqueID(),
                         "Volcano Emblem Bonus", VOLCANO_EMBLEM_VOLCANIC_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "ashen_emblem":
+                applyStaticModifier(entity, ModAttributes.ASHEN.get(), emblemItem.getUniqueID(),
+                        "Ashen Emblem Bonus", ASHEN_EMBLEM_ASHEN_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "cinderwall_emblem":
+                applyStaticModifier(entity, ModAttributes.CINDERWALL.get(), emblemItem.getUniqueID(),
+                        "Cinderwall Emblem Bonus", CINDERWALL_EMBLEM_CINDERWALL_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "emberheart_emblem":
+                applyStaticModifier(entity, ModAttributes.EMBERHEART.get(), emblemItem.getUniqueID(),
+                        "Emberheart Emblem Bonus", EMBERHEART_EMBLEM_EMBERHEART_BONUS, AttributeModifier.Operation.ADDITION);
                 break;
 
 

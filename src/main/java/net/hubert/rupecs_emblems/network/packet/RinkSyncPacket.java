@@ -5,6 +5,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.network.NetworkEvent;
 import net.minecraftforge.network.PacketDistributor;
 import net.hubert.rupecs_emblems.network.PacketHandler;
@@ -29,24 +31,13 @@ public class RinkSyncPacket {
         buf.writeInt(entityId);
         buf.writeBoolean(rinkActive);
     }
-
     public void handle(Supplier<NetworkEvent.Context> ctx) {
         ctx.get().enqueueWork(() -> {
-            // This runs on the CLIENT side
-            var player = ctx.get().getSender(); // This will be null on client
-            Level level = net.minecraft.client.Minecraft.getInstance().level;
-            if (level == null) return;
-
-            Entity entity = level.getEntity(entityId);
-            if (entity instanceof Player targetPlayer) {
-                if (rinkActive) {
-                    targetPlayer.getTags().add("rink_active");
-                } else {
-                    targetPlayer.getTags().remove("rink_active");
-                }
-                System.out.println("Client: Set rink_active to " + rinkActive + " for player " + targetPlayer.getName().getString());
-            }
+            DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> {
+                RinkSyncPacketClient.handle(entityId, rinkActive);
+            });
         });
+
         ctx.get().setPacketHandled(true);
     }
 }

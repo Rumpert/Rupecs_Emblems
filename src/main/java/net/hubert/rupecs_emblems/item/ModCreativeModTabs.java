@@ -128,6 +128,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CORAL_CROWN.get());
                         pOutput.accept(ModItems.SALT_ORE.get());
                         pOutput.accept(ModItems.BUBBLIUM.get());
+                        pOutput.accept(ModItems.BLAZING_FLASK.get());
 
 
 
@@ -146,6 +147,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.OWSHUN.get());
                         pOutput.accept(ModItems.BONE_CROWN.get());
                         pOutput.accept(ModItems.EARF.get());
+                        pOutput.accept(ModItems.NORTHERN_LIGHTS.get());
 
 
                         pOutput.accept(ModItems.LIVING_MASS.get());

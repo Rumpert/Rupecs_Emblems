@@ -232,6 +232,10 @@ public class MobHitHandler {
                 if (event.getSource().getEntity() == null || !event.getSource().getEntity().isAlive()) return;
                 event.getSource().getEntity().hurt(player.damageSources().magic(), (float) (event.getAmount() * (player.getAttribute(ModAttributes.DAMAGE_REFLECTION.get()).getValue())));
             }
+            if (player.getAttribute(ModAttributes.CINDERWALL.get()) != null && player.getAttribute(ModAttributes.CINDERWALL.get()).getValue() > 0 && event.getSource().getEntity() != player) {
+                if (event.getSource().getEntity() == null || !event.getSource().getEntity().isAlive()) return;
+                event.getSource().getEntity().setSecondsOnFire((int) (player.getAttributeValue(ModAttributes.CINDERWALL.get()) *2));
+            }
             if (player.getAttribute(ModAttributes.THORNS.get()) != null && player.getAttribute(ModAttributes.THORNS.get()).getValue() > 0 && event.getSource().getEntity() != player) {
                 if (event.getSource().getEntity() == null || !event.getSource().getEntity().isAlive()) return;
                 event.getSource().getEntity().hurt(player.damageSources().playerAttack(player), (float) (player.getAttribute(ModAttributes.THORNS.get()).getValue()));
