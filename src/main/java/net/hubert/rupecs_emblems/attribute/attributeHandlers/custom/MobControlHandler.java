@@ -526,7 +526,7 @@ public class MobControlHandler {
         if (!getNearbyMobs(player, range).isEmpty()) {
             Mob entity = getNearbyMobs(player, range).get(player.level().random.nextInt(getNearbyMobs(player, range).size()));
             if (!entity.isAlliedTo(player) && (entity.isAggressive() || (entity.getTarget() != null && entity.getTarget().is(player)))) {
-                zapAndBounce(player.level(), player, entity, 0, new ArrayList<>(), range);
+                zapAndBounce(player.level(), player, entity, 0, new ArrayList<>(), range, player.damageSources().playerAttack(player));
 
             }
 

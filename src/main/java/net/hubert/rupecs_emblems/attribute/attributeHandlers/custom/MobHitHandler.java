@@ -186,7 +186,7 @@ public class MobHitHandler {
                     LivingEntity target = (LivingEntity) event.getEntity();
                     List<LivingEntity> alreadyZapped = new ArrayList<>();
                     alreadyZapped.add(target);
-                    zapAndBounce(player.level(), player, target, (int) player.getAttributeValue(ModAttributes.STATIC.get()), alreadyZapped, 3);
+                    zapAndBounce(player.level(), player, target, (int) player.getAttributeValue(ModAttributes.STATIC.get()), alreadyZapped, 3, player.damageSources().magic());
                     lightningParticleSourceTargets.put(player, target);
 
                 }
@@ -276,7 +276,7 @@ public class MobHitHandler {
             if (player.getAttribute(ModAttributes.CONDUCTOR.get()) != null &&
                     player.getAttribute(ModAttributes.CONDUCTOR.get()).getValue() > 0 &&
                     event.getSource().getEntity() instanceof LivingEntity livingSource) {
-                zapAndBounce(player.level(), player, livingSource, 0, new ArrayList<>(), player.getAttribute(ModAttributes.CONDUCTOR.get()).getValue());
+                zapAndBounce(player.level(), player, livingSource, 0, new ArrayList<>(), player.getAttribute(ModAttributes.CONDUCTOR.get()).getValue(), player.damageSources().playerAttack(player));
             }
             if (player.getAttribute(ModAttributes.ANTHEM.get()) != null &&
                     player.getAttributeValue(ModAttributes.ANTHEM.get()) > 0 && damagedCount.getOrDefault(player.getUUID(), 0) %2 == 0) {
@@ -581,7 +581,7 @@ public class MobHitHandler {
                         LivingEntity nextTarget = nearbyEnemies.get(randomIndex);
 
                         // Continue the chain, using target as the new source.
-                        zapAndBounce(entity.level(), entity, nextTarget, 0, new ArrayList<>(), 3);
+                        zapAndBounce(entity.level(), entity, nextTarget, 0, new ArrayList<>(), 3, entity.damageSources().magic());
                     }
                 }
 
@@ -744,34 +744,54 @@ public class MobHitHandler {
 
 
 
-    public static void zapAndBounce(Level world, LivingEntity source, LivingEntity target, int bounceCount, List<LivingEntity> alreadyZapped, double bounceRadius){
-        zapAndBounce(world, source, target, bounceCount, alreadyZapped, bounceRadius, 1);
+    public static void zapAndBounce(Level world, LivingEntity source, LivingEntity target, int bounceCount, List<LivingEntity> alreadyZapped, double bounceRadius, DamageSource damageSource){
+        zapAndBounce(world, source, target, bounceCount, alreadyZapped, bounceRadius, 1, damageSource);
     }
-    public static void zapAndBounce(Level world, LivingEntity source, LivingEntity target, int bounceCount, List<LivingEntity> alreadyZapped, double bounceRadius, float damage) {
-        // Instead of sending a network packet, spawn the lightning particles immediately.
-        ClientLightningParticleHandler.lightningParticleSourceTargets.put(source,target);
+    public static void zapAndBounce(Level world,
+                                    LivingEntity source,
+                                    LivingEntity target,
+                                    int bounceCount,
+                                    List<LivingEntity> alreadyZapped,
+                                    double bounceRadius,
+                                    float damage,
+                                    DamageSource damageSource) {
 
-        if (!target.level().isClientSide()) { // Process damage and bouncing on the server.
-            target.hurt(target.damageSources().generic(), damage);
-            target.hurtDuration = 0;
-            target.hurtMarked = false;
-            target.hurtTime = 0;
-            target.invulnerableTime = 0;
+        ClientLightningParticleHandler.lightningParticleSourceTargets.put(source, target);
 
-            if (bounceCount > 0) {
-                AABB searchBox = target.getBoundingBox().inflate(bounceRadius);
-                List<LivingEntity> nearbyEnemies = world.getEntitiesOfClass(LivingEntity.class, searchBox,
-                        e -> e != target && e.isAlive() && !(e instanceof Player) && !alreadyZapped.contains(e)
-                                && (e instanceof Monster || e.getClass() == target.getClass()));
 
-                if (!nearbyEnemies.isEmpty()) {
-                    int randomIndex = ThreadLocalRandom.current().nextInt(nearbyEnemies.size());
-                    LivingEntity nextTarget = nearbyEnemies.get(randomIndex);
-                    alreadyZapped.add(nextTarget);
 
-                    // Continue the chain, using target as the new source.
-                    zapAndBounce(world, target, nextTarget, bounceCount - 1, alreadyZapped, bounceRadius);
-                }
+        target.hurt(damageSource, damage);
+
+        if (bounceCount > 0) {
+            AABB searchBox = target.getBoundingBox().inflate(bounceRadius);
+
+            List<LivingEntity> nearbyEnemies =
+                    world.getEntitiesOfClass(
+                            LivingEntity.class,
+                            searchBox,
+                            e -> e != target
+                                    && e.isAlive()
+                                    && !(e instanceof Player)
+                                    && !alreadyZapped.contains(e)
+                                    && (e instanceof Monster || e.getClass() == target.getClass())
+                    );
+
+            if (!nearbyEnemies.isEmpty()) {
+                LivingEntity nextTarget =
+                        nearbyEnemies.get(ThreadLocalRandom.current().nextInt(nearbyEnemies.size()));
+
+                alreadyZapped.add(nextTarget);
+
+                zapAndBounce(
+                        world,
+                        target,
+                        nextTarget,
+                        bounceCount - 1,
+                        alreadyZapped,
+                        bounceRadius,
+                        1,
+                        source.damageSources().magic()
+                );
             }
         }
     }

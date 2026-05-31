@@ -556,7 +556,6 @@ public class ItemiumSpawnEvents {
 
         float chance = (float) (event.getPlayer().getAttributeValue(ModAttributes.LUCKY.get()));
         event.getLevel().addFreshEntity(entity);
-        event.getPlayer().sendSystemMessage(Component.literal(String.valueOf((1+0.5*chance))));
         if (event.getLevel().random.nextFloat() < 0.15 * (1+0.5*chance)){
             if (event.getLevel().random.nextFloat() < 0.2){
                 ItemEntity enthereal_conjugation = new ItemEntity(event.getLevel(), event.getPosition().x, event.getPosition().y, event.getPosition().z, ModItems.ENTHEREAL_CONJUGATION.get().getDefaultInstance());
