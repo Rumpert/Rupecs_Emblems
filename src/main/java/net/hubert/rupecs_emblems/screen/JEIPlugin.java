@@ -27,6 +27,12 @@ public class JEIPlugin implements IModPlugin {
 
         );
         registration.addIngredientInfo(
+                new ItemStack(ModItems.ENTHEREAL_CONJUGATION.get()),
+                VanillaTypes.ITEM_STACK,
+                Component.literal("Has a chance to spawn alongside an itemium.")
+
+        );
+        registration.addIngredientInfo(
                 new ItemStack(ModItems.BULBULIUM.get()),
                 VanillaTypes.ITEM_STACK,
                 Component.literal("May appear when player is standing in a bubble column."),
@@ -1676,6 +1682,11 @@ public class JEIPlugin implements IModPlugin {
         registration.addIngredientInfo(new ItemStack(ModItems.SKY_WANDERER_EMBLEM.get()), VanillaTypes.ITEM_STACK,
                 Component.literal("Emblem of The Sky Wanderer Effects:\n" +
                         "Endless Flight Time"));
+
+
+        registration.addIngredientInfo(new ItemStack(ModItems.FLAMING_WINGS_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("Flaming Wings Emblem Effects:\n" +
+                        "Instantly charges wings special powers"));
 
 
         registration.addIngredientInfo(new ItemStack(ModItems.MOTHER_EARTH_EMBLEM.get()), VanillaTypes.ITEM_STACK,

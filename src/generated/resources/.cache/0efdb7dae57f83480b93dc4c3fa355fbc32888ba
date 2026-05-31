@@ -1,4 +1,4 @@
-// 1.20.1	2026-05-03T19:26:31.0332229	Item Models: rupecs_emblems
+// 1.20.1	2026-05-30T14:28:18.2990675	Item Models: rupecs_emblems
 93ae698dc47e3e4587d66327c719818744419fe1 assets/rupecs_emblems/models/item/absorber_emblem.json
 6a6abf129d5a49e724fcb33ed92510df3a8e505a assets/rupecs_emblems/models/item/ancient_emblemium.json
 3912db3326fd9a2b56a07ba9676839185af0af2e assets/rupecs_emblems/models/item/ancient_remains.json
@@ -97,6 +97,7 @@ cfb62c7efbaa5eb7a17bbded93fbac26d4516591 assets/rupecs_emblems/models/item/farme
 a0bc28cfc9260729049d620e460d4d08acfa2e11 assets/rupecs_emblems/models/item/fertilized_emblem.json
 e46ccf006c0c4d8222000556ba5d25da75efd8ca assets/rupecs_emblems/models/item/finders_emblem.json
 990bcfb0f8dcad7c7a502bc0b00bc8f94c217214 assets/rupecs_emblems/models/item/fire_emblem.json
+9c2080d4d175aa1678ac44d7f707794e4819dad0 assets/rupecs_emblems/models/item/flaming_wings_emblem.json
 f6690645796f5bebda514e9d36236e1d47a959f4 assets/rupecs_emblems/models/item/florist_emblem.json
 73f64e243568e4ec7ef5d074e2fdf777a1047c03 assets/rupecs_emblems/models/item/flowerfield_emblem.json
 524de80dfffd80c29f044f6a614ac7ac89b37a99 assets/rupecs_emblems/models/item/flowerforest_emblem.json

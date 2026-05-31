@@ -1432,6 +1432,15 @@ public class ModItems {
                 }
                 return new ProxyEmblemItem(new Item.Properties().stacksTo(1));
             });
+    public static final RegistryObject<Item> FLAMING_WINGS_EMBLEM = ITEMS.register("flaming_wings_emblem",
+            () -> {
+                if (ModList.get().isLoaded("rupecs_elytras")) {
+                    return new ModEmblemItem(new Item.Properties(), EmblemTiers.D, List.of(EmblemTypes.AIR, EmblemTypes.FIRE),
+                            Map.of(EmblemClasses.PASSIVE,2),
+                            "Insta-charged wing power");
+                }
+                return new ProxyEmblemItem(new Item.Properties().stacksTo(1));
+            });
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

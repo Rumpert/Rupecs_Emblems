@@ -1,0 +1,14 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "rupecs_emblems:enthereal_conjugation"
+  },
+  "success_chance": 0.99
+}

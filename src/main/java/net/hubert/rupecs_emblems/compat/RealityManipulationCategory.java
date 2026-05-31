@@ -62,21 +62,11 @@ public class RealityManipulationCategory implements IRecipeCategory<RealityManip
     public void setRecipe(IRecipeLayoutBuilder builder, RealityManipulatorRecipe recipe, IFocusGroup focuses) {
         List<IngredientWithNbt> ingredients = recipe.getIngredientsWithNbt();
 
-        // Create display stacks for first ingredient (slot 1)
-        List<ItemStack> displayStacks1 = createDisplayStacks(ingredients.get(0));
-        builder.addSlot(RecipeIngredientRole.INPUT, 45, 10)
-                .addItemStacks(displayStacks1);
-
-        // Create display stacks for second ingredient (slot 2)
-        List<ItemStack> displayStacks2 = createDisplayStacks(ingredients.get(1));
-        builder.addSlot(RecipeIngredientRole.INPUT, 75, 10)
-                .addItemStacks(displayStacks2);
-
-        // Create display stacks for third ingredient (slot 3)
-        List<ItemStack> displayStacks3 = createDisplayStacks(ingredients.get(2));
-        builder.addSlot(RecipeIngredientRole.INPUT, 105, 10)
-                .addItemStacks(displayStacks3);
-
+        for (int i = 0 ; i < ingredients.size(); i ++){
+            List<ItemStack> displayStacks1 = createDisplayStacks(ingredients.get(i));
+            builder.addSlot(RecipeIngredientRole.INPUT, 45+i*30, 10)
+                    .addItemStacks(displayStacks1);
+        }
         // Output slot
         builder.addSlot(RecipeIngredientRole.OUTPUT, 75, 47)
                 .addItemStack(recipe.getResultItem(null));

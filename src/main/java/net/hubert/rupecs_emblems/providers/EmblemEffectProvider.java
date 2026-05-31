@@ -714,6 +714,18 @@ public class EmblemEffectProvider {
 
                 break;
 
+            case "flaming_wings_emblem":
+                if (!ModList.get().isLoaded("rupecs_elytras") || !(entity instanceof Player player)) break;
+                player.getCapability(FlightTimeDataProvider.PLAYER_FLIGHT_TIME_DATA).ifPresent(data ->{
+
+                    if (data.canDisplay() && player.onGround()) {
+                        data.getFlightTimeEntry().setStartThrustTime(data.getFlightTimeEntry().getMaxStartThrustTime());
+                        data.getFlightTimeEntry().setEndingTime(data.getFlightTimeEntry().getMaxEndingTime());
+                }
+                });
+
+                break;
+
 
         }
     }

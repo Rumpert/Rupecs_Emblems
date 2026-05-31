@@ -286,7 +286,6 @@ public class ItemiumSpawnEvents {
 
     @SubscribeEvent
     public static void onBoneMeal(BonemealEvent event) {
-        // Skip if client-side
         if (event.getLevel().isClientSide()) {
             return;
         }
@@ -295,29 +294,41 @@ public class ItemiumSpawnEvents {
         ServerLevel level = (ServerLevel) event.getLevel();
         BlockState state = level.getBlockState(pos);
 
-        // Check if the block can actually be bonemealed (this is what makes it consume the bonemeal)
-        if (!state.is(BlockTags.BEE_GROWABLES) && !(state.getBlock() instanceof BonemealableBlock boneMealable
-                && boneMealable.isValidBonemealTarget(level, pos, state, level.isClientSide))) {
+        // Only continue if the block can actually grow right now
+        if (!(state.getBlock() instanceof BonemealableBlock boneMealable)) {
             return;
         }
 
-        float chance = (float) (1+event.getEntity().getAttributeValue(ModAttributes.LUCKY.get()));
+        // Prevent mature crops / finished plants
+        if (!boneMealable.isValidBonemealTarget(level, pos, state, false)) {
+            return;
+        }
 
-        // 5% chance to drop a Verdant Core
-        if (level.random.nextFloat() < 0.05f*chance) {
+        // Optional success check
+        if (!boneMealable.isBonemealSuccess(level, level.random, pos, state)) {
+            return;
+        }
+
+        float chance = (float)(1 + event.getEntity().getAttributeValue(ModAttributes.LUCKY.get()));
+
+        if (level.random.nextFloat() < 0.05f * chance) {
             MinecraftForge.EVENT_BUS.post(new ItemiumSpawnEvent(
-                    (ItemiumItem) ModItems.VERDANT_CORE.get(), new Vec3(
-                    pos.getX() + 0.5,
-                    pos.getY() + 0.5,
-                    pos.getZ() + 0.5),
+                    (ItemiumItem) ModItems.VERDANT_CORE.get(),
+                    new Vec3(
+                            pos.getX() + 0.5,
+                            pos.getY() + 0.5,
+                            pos.getZ() + 0.5
+                    ),
                     event.getEntity(),
-                    level,new ItemEntity(
                     level,
-                    pos.getX() + 0.5,
-                    pos.getY() + 0.5,
-                    pos.getZ() + 0.5,
-                    ModItems.VERDANT_CORE.get().getDefaultInstance()
-            )));
+                    new ItemEntity(
+                            level,
+                            pos.getX() + 0.5,
+                            pos.getY() + 0.5,
+                            pos.getZ() + 0.5,
+                            ModItems.VERDANT_CORE.get().getDefaultInstance()
+                    )
+            ));
         }
     }
     @SubscribeEvent
@@ -543,13 +554,21 @@ public class ItemiumSpawnEvents {
         ItemEntity entity = event.getItemiumEntity().copy();
         entity.setGlowingTag(true);
 
-
+        float chance = (float) (event.getPlayer().getAttributeValue(ModAttributes.LUCKY.get()));
         event.getLevel().addFreshEntity(entity);
-        if (event.getLevel().random.nextFloat() < 0.15){
+        event.getPlayer().sendSystemMessage(Component.literal(String.valueOf((1+0.5*chance))));
+        if (event.getLevel().random.nextFloat() < 0.15 * (1+0.5*chance)){
+            if (event.getLevel().random.nextFloat() < 0.2){
+                ItemEntity enthereal_conjugation = new ItemEntity(event.getLevel(), event.getPosition().x, event.getPosition().y, event.getPosition().z, ModItems.ENTHEREAL_CONJUGATION.get().getDefaultInstance());
+                enthereal_conjugation.setGlowingTag(true);
+                enthereal_conjugation.setNoPickUpDelay();
+                event.getLevel().addFreshEntity(enthereal_conjugation);
+            }
             ItemEntity enthereal_mass = new ItemEntity(event.getLevel(), event.getPosition().x, event.getPosition().y, event.getPosition().z, ModItems.ENTHEREAL_MASS.get().getDefaultInstance());
             enthereal_mass.setGlowingTag(true);
             enthereal_mass.setNoPickUpDelay();
             event.getLevel().addFreshEntity(enthereal_mass);
+
         }
         event.getLevel().playSound(
                 null, // all nearby players hear it

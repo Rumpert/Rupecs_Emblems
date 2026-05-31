@@ -1,0 +1,18 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "rupecs_emblems:enthereal_mass"
+    },
+    {
+      "count": 1,
+      "tag": "rupecs_emblems:tier_two_itemiums"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:enthereal_conjugation"
+  },
+  "success_chance": 0.9
+}

@@ -31,44 +31,44 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.OVERWORLD_EMBLEMIUM.get(), 1)
-                .pattern("LCQ")
+                .pattern("TLT")
                 .pattern("IDG")
-                .pattern("QRL")
+                .pattern("TRT")
                 .define('I', Items.IRON_BLOCK)
-                .define('C', Items.COPPER_BLOCK)
+                .define('L', Items.LAPIS_BLOCK)
                 .define('G', Items.GOLD_BLOCK)
                 .define('R', Items.REDSTONE_BLOCK)
-                .define('L', ModItems.BONSAI.get())
-                .define('Q', ModItems.VERDANT_CORE.get())
-                .define('D', Items.DIAMOND_BLOCK)
+                .define('T', Ingredient.of(ModTags.Items.TIER_ONE_ITEMIUMS))
+                .define('D', Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS))
                 .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NETHER_EMBLEMIUM.get(), 1)
-                .pattern("LCQ")
-                .pattern("DID")
-                .pattern("QCL")
+                .pattern("QCQ")
+                .pattern("LIL")
+                .pattern("QCQ")
                 .define('I', Items.NETHERITE_INGOT)
                 .define('C', Items.QUARTZ_BLOCK)
                 .define('L', Items.GOLD_BLOCK)
-                .define('Q', ModItems.BURNING_CLOTH.get())
-                .define('D', Items.DIAMOND_BLOCK)
+                .define('Q', Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS))
                 .unlockedBy(getHasName(Items.NETHERITE_INGOT), has(Items.NETHERITE_INGOT))
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.END_EMBLEMIUM.get(), 1)
-                .pattern("LIL")
+                .pattern("LFL")
                 .pattern("IDI")
-                .pattern("LIL")
-                .define('I', Items.NETHERITE_INGOT)
-                .define('L', Items.DRAGON_BREATH)
+                .pattern("LFL")
+                .define('I', Items.DIAMOND_BLOCK)
+                .define('L', Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS))
+                .define('F', Ingredient.of(ModTags.Items.TIER_FOUR_ITEMIUMS))
                 .define('D', Items.DRAGON_EGG)
                 .unlockedBy(getHasName(Items.DRAGON_EGG), has(Items.DRAGON_EGG))
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STAR_EMBLEMIUM.get(), 1)
-                .pattern("DID")
+                .pattern("FIF")
                 .pattern("IDI")
-                .pattern("DID")
+                .pattern("FIF")
                 .define('I', Items.NETHERITE_INGOT)
                 .define('D', Items.NETHER_STAR)
+                .define('F', Ingredient.of(ModTags.Items.TIER_FOUR_ITEMIUMS))
                 .unlockedBy(getHasName(Items.NETHER_STAR), has(Items.NETHER_STAR))
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_EMBLEMIUM.get(), 1)
@@ -1799,7 +1799,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.LUCKY_EMBLEM.get(), 1)
-                .requires(ModItems.PRAYERS_EMBLEM.get(), 2)
+                .requires(ModItems.PRAYERS_EMBLEM.get(), 1)
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS))
                 .requires(ModItems.REFERENCIUM.get(), 2)
                 .requires(Items.GOLD_BLOCK, 2)
                 .unlockedBy(getHasName(Items.GOLD_BLOCK), has(Items.GOLD_BLOCK))
@@ -1807,7 +1808,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.LEPRECHAUN_EMBLEM.get(), 1)
-                .requires(ModItems.LUCKY_EMBLEM.get(), 2)
+                .requires(ModItems.LUCKY_EMBLEM.get(), 1)
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS))
                 .requires(ModItems.WINE_CUP.get(), 2)
                 .requires(Items.GOLD_BLOCK, 5)
                 .unlockedBy(getHasName(Items.GOLD_BLOCK), has(Items.GOLD_BLOCK))
@@ -2098,6 +2100,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.NORTHERN_LIGHTS.get(), 2)
                 .requires(ModItems.BLAZING_FLASK.get(), 3)
                 .requires(Items.NETHERRACK, 3)
+                .unlockedBy(getHasName(ModItems.NORTHERN_LIGHTS.get()), has(ModItems.NORTHERN_LIGHTS.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.FLAMING_WINGS_EMBLEM.get(), 1)
+                .requires(ModItems.GLIDER_EMBLEM.get())
+                .requires(ModItems.NORTHERN_LIGHTS.get(), 2)
+                .requires(ModItems.BLAZING_FLASK.get(), 3)
                 .unlockedBy(getHasName(ModItems.NORTHERN_LIGHTS.get()), has(ModItems.NORTHERN_LIGHTS.get()))
                 .save(pWriter);
 
@@ -2401,10 +2410,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         RealityManipulationRecipeBuilder.realityManipulation(ModItems.ENTHEREAL_CONJUGATION.get(), 1)
                 .requires(ModItems.ENTHEREAL_MASS.get())
-                .requires(ModItems.ENTHEREAL_MASS.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_ONE_ITEMIUMS))
                 .requires(ModItems.ENTHEREAL_MASS.get())
                 .withSuccessChance(0.5f)
-                .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.COSMIC_EMBLEMIUM.get()+ "_from_reality_manipulation" );
+                .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.ENTHEREAL_CONJUGATION.get()+ "-t1_from_reality_manipulation" );
+
+        RealityManipulationRecipeBuilder.realityManipulation(ModItems.ENTHEREAL_CONJUGATION.get(), 1)
+                .requires(ModItems.ENTHEREAL_MASS.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_TWO_ITEMIUMS))
+                .withSuccessChance(0.9f)
+                .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.ENTHEREAL_CONJUGATION.get()+ "-t2_from_reality_manipulation" );
+
+        RealityManipulationRecipeBuilder.realityManipulation(ModItems.ENTHEREAL_CONJUGATION.get(), 2)
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS))
+                .withSuccessChance(0.99f)
+                .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.ENTHEREAL_CONJUGATION.get()+ "-t3_from_reality_manipulation" );
+
+        RealityManipulationRecipeBuilder.realityManipulation(ModItems.ENTHEREAL_CONJUGATION.get(), 4)
+                .requires(Ingredient.of(ModTags.Items.TIER_FOUR_ITEMIUMS))
+                .withSuccessChance(1f)
+                .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.ENTHEREAL_CONJUGATION.get()+ "-t4_from_reality_manipulation" );
 
         RealityManipulationRecipeBuilder.realityManipulation(ModItems.EMBLEMENTAL_ENTHERA.get(), 1)
                 .requires(ModTags.Items.EMBLEMS)
@@ -2477,6 +2502,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .withSuccessChance(0.03f)
                 .withIntTag("enther", 8)
                 .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.EMBLEMENTAL_ENTHERA.get()+ "-e8_from_reality_manipulation" );
+
+        RealityManipulationRecipeBuilder.realityManipulation(ModItems.ENTHEREAL_MASS.get(), 1)
+                .requires(Ingredient.of(ModTags.Items.TIER_ONE_ITEMIUMS))
+                .requires(Ingredient.of(ModTags.Items.TIER_ONE_ITEMIUMS))
+                .requires(Ingredient.of(ModTags.Items.TIER_ONE_ITEMIUMS))
+                .withSuccessChance(1f)
+                .save(pWriter, Rupecs_Emblems.MOD_ID +":"+ ModItems.ENTHEREAL_MASS.get()+ "_from_reality_manipulation" );
 
         EntherealSelectorRecipeBuilder.etherealSelection(ModItems.ENTHEREAL_MASS.get(), 5)
                 .requires(ModItems.ENTHEREAL_MASS.get())

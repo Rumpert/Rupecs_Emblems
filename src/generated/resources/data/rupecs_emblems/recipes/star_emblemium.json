@@ -5,14 +5,17 @@
     "D": {
       "item": "minecraft:nether_star"
     },
+    "F": {
+      "tag": "rupecs_emblems:tier_four_itemiums"
+    },
     "I": {
       "item": "minecraft:netherite_ingot"
     }
   },
   "pattern": [
-    "DID",
+    "FIF",
     "IDI",
-    "DID"
+    "FIF"
   ],
   "result": {
     "item": "rupecs_emblems:star_emblemium"

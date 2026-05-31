@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:glider_emblem"
+    },
+    {
+      "item": "rupecs_emblems:northern_lights"
+    },
+    {
+      "item": "rupecs_emblems:northern_lights"
+    },
+    {
+      "item": "rupecs_emblems:blazing_flask"
+    },
+    {
+      "item": "rupecs_emblems:blazing_flask"
+    },
+    {
+      "item": "rupecs_emblems:blazing_flask"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:flaming_wings_emblem"
+  }
+}

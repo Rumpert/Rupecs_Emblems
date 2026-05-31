@@ -12,6 +12,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.SlotItemHandler;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public class RealityManipulatorMenu extends AbstractContainerMenu {
@@ -31,6 +32,7 @@ public class RealityManipulatorMenu extends AbstractContainerMenu {
         this.level = inv.player.level();
         this.data = data;
 
+//        this.addSlot(new SlotItemHandler(iItemHandler, 3, 80, 52));
 
         addPlayerInventory(inv);
         addPlayerHotbar(inv);
@@ -38,7 +40,12 @@ public class RealityManipulatorMenu extends AbstractContainerMenu {
                 this.addSlot(new SlotItemHandler(iItemHandler, 0, 50, 15));
                 this.addSlot(new SlotItemHandler(iItemHandler, 1, 80, 15));
                 this.addSlot(new SlotItemHandler(iItemHandler, 2, 110, 15));
-                this.addSlot(new SlotItemHandler(iItemHandler, 3, 80, 52));
+                this.addSlot(new SlotItemHandler(iItemHandler, 3, 80, 52){
+                    @Override
+                    public boolean mayPlace(@NotNull ItemStack stack) {
+                        return false;
+                    }
+                });
         });
         addDataSlots(data);
 

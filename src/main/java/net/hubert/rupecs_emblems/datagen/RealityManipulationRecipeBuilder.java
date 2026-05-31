@@ -42,6 +42,10 @@ public class RealityManipulationRecipeBuilder {
     public RealityManipulationRecipeBuilder requires(Item item, int count) {
         ingredientsWithNbt.add(new IngredientWithNbt(Ingredient.of(item), count, null));
         return this;
+    }// Simple ingredient without NBT conditions (item)
+    public RealityManipulationRecipeBuilder requires(Ingredient ingredient) {
+        ingredientsWithNbt.add(new IngredientWithNbt(ingredient, 1, null));
+        return this;
     }
 
     public RealityManipulationRecipeBuilder requires(Item item) {

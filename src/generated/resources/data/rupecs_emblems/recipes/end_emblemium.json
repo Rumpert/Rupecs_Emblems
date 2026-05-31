@@ -5,17 +5,20 @@
     "D": {
       "item": "minecraft:dragon_egg"
     },
+    "F": {
+      "tag": "rupecs_emblems:tier_four_itemiums"
+    },
     "I": {
-      "item": "minecraft:netherite_ingot"
+      "item": "minecraft:diamond_block"
     },
     "L": {
-      "item": "minecraft:dragon_breath"
+      "tag": "rupecs_emblems:tier_three_itemiums"
     }
   },
   "pattern": [
-    "LIL",
+    "LFL",
     "IDI",
-    "LIL"
+    "LFL"
   ],
   "result": {
     "item": "rupecs_emblems:end_emblemium"

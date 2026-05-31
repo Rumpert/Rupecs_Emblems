@@ -1,9 +1,9 @@
-// 1.20.1	2026-05-03T19:14:47.8416929	Tags for minecraft:item mod id rupecs_emblems
+// 1.20.1	2026-05-30T14:28:18.3025863	Tags for minecraft:item mod id rupecs_emblems
 6d775fc13958a767fbbe962f72c303c8d028fc06 data/curios/tags/items/a_tier_emblem.json
 42ac7a011fb4ac44cb4c0575b5fc379aba142c48 data/curios/tags/items/b_tier_emblem.json
 0938b47618decee7b4704da049f9342264537353 data/curios/tags/items/c_tier_emblem.json
-87ad6612e2654c63b0064ae68a9738f819e8069b data/curios/tags/items/d_tier_emblem.json
-c35a585f1a0719acd281ad41def75c904778d071 data/curios/tags/items/emblem.json
+a53138234ec0b00a344000238e4bcaf9df79d01f data/curios/tags/items/d_tier_emblem.json
+9373af16a564205586a41f8df5c2ce4951032be4 data/curios/tags/items/emblem.json
 1f54eee4844edcdd7aacd547adc5aacf2f234b7a data/curios/tags/items/e_tier_emblem.json
 b56166d7310be8c55f4efd3708c384269acbea2c data/curios/tags/items/f_tier_emblem.json
 41779519822e44f4fb5a8505a06632547a6ea4b5 data/curios/tags/items/ss_tier_emblem.json
@@ -12,8 +12,8 @@ b56166d7310be8c55f4efd3708c384269acbea2c data/curios/tags/items/f_tier_emblem.js
 6d775fc13958a767fbbe962f72c303c8d028fc06 data/rupecs_emblems/tags/items/a_tier_emblems.json
 42ac7a011fb4ac44cb4c0575b5fc379aba142c48 data/rupecs_emblems/tags/items/b_tier_emblems.json
 0938b47618decee7b4704da049f9342264537353 data/rupecs_emblems/tags/items/c_tier_emblems.json
-87ad6612e2654c63b0064ae68a9738f819e8069b data/rupecs_emblems/tags/items/d_tier_emblems.json
-c35a585f1a0719acd281ad41def75c904778d071 data/rupecs_emblems/tags/items/emblems.json
+a53138234ec0b00a344000238e4bcaf9df79d01f data/rupecs_emblems/tags/items/d_tier_emblems.json
+9373af16a564205586a41f8df5c2ce4951032be4 data/rupecs_emblems/tags/items/emblems.json
 1f54eee4844edcdd7aacd547adc5aacf2f234b7a data/rupecs_emblems/tags/items/e_tier_emblems.json
 6cd0e8de228bbf9c1a7f34a398208f2f02158897 data/rupecs_emblems/tags/items/food.json
 b56166d7310be8c55f4efd3708c384269acbea2c data/rupecs_emblems/tags/items/f_tier_emblems.json

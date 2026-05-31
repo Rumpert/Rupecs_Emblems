@@ -1,0 +1,21 @@
+{
+  "type": "rupecs_emblems:reality_manipulation",
+  "ingredients": [
+    {
+      "count": 1,
+      "tag": "rupecs_emblems:tier_one_itemiums"
+    },
+    {
+      "count": 1,
+      "tag": "rupecs_emblems:tier_one_itemiums"
+    },
+    {
+      "count": 1,
+      "tag": "rupecs_emblems:tier_one_itemiums"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "rupecs_emblems:enthereal_mass"
+  }
+}
