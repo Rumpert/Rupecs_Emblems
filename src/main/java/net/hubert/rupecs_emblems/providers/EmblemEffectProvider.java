@@ -315,6 +315,15 @@ public class EmblemEffectProvider {
     private static final double FORESEEN_EMBLEM_LUCKY_BONUS = 3.0;
     private static final double THE_TRUTH_EMBLEM_LUCKY_BONUS = 3.7;
     private static final double CREATOR_BLESSED_EMBLEM_LUCKY_BONUS = 4.5;
+    private static final double JACK_EMBLEM_LUCKY_BONUS = 0.25;
+    private static final double KING_EMBLEM_LUCKY_BONUS = 0.4;
+    private static final double QUEEN_EMBLEM_LUCKY_BONUS = 0.3;
+    private static final double ACE_EMBLEM_LUCKY_BONUS = 1;
+    private static final double KING_EMBLEM_FORTUNE_FIST_BONUS = 2;
+    private static final double QUEEN_EMBLEM_FORTUNE_FIST_BONUS = 1;
+    private static final double ACE_EMBLEM_FORTUNE_FIST_BONUS = 3;
+    private static final double THE_FOOL_EMBLEM_THE_FOOL_BONUS = 1;
+    private static final double THE_MAGICIAN_EMBLEM_THE_MAGICIAN_BONUS = 1;
     private static final double ANVIL_EMBLEM_ANVIL_BONUS = 0.05;
     private static final double BLACKSMITH_EMBLEM_ANVIL_BONUS = 0.15;
     private static final double FORGER_EMBLEM_ANVIL_BONUS = 0.3;
@@ -1727,6 +1736,36 @@ public class EmblemEffectProvider {
             case "creator_blessed_emblem":
                 applyStaticModifier(entity, ModAttributes.LUCKY.get(), emblemItem.getUniqueID(),
                         "Emblem Of The Creator's Blessing Bonus", CREATOR_BLESSED_EMBLEM_LUCKY_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "jack_emblem":
+                applyStaticModifier(entity, ModAttributes.LUCKY.get(), emblemItem.getUniqueID(),
+                        "Jack Emblem Bonus", JACK_EMBLEM_LUCKY_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "king_emblem":
+                applyStaticModifier(entity, ModAttributes.LUCKY.get(), emblemItem.getUniqueID(),
+                        "King Emblem Bonus", KING_EMBLEM_LUCKY_BONUS, AttributeModifier.Operation.ADDITION);
+                applyStaticModifier(entity, ModAttributes.FORTUNE_FIST.get(), emblemItem.getUniqueID(),
+                        "King Emblem Bonus", KING_EMBLEM_FORTUNE_FIST_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "queen_emblem":
+                applyStaticModifier(entity, ModAttributes.LUCKY.get(), emblemItem.getUniqueID(),
+                        "Queen Emblem Bonus", QUEEN_EMBLEM_LUCKY_BONUS, AttributeModifier.Operation.ADDITION);
+                applyStaticModifier(entity, ModAttributes.FORTUNE_FIST.get(), emblemItem.getUniqueID(),
+                        "Queen Emblem Bonus", QUEEN_EMBLEM_FORTUNE_FIST_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "ace_emblem":
+                applyStaticModifier(entity, ModAttributes.LUCKY.get(), emblemItem.getUniqueID(),
+                        "Ace Emblem Bonus", ACE_EMBLEM_LUCKY_BONUS, AttributeModifier.Operation.ADDITION);
+                applyStaticModifier(entity, ModAttributes.FORTUNE_FIST.get(), emblemItem.getUniqueID(),
+                        "Ace Emblem Bonus", ACE_EMBLEM_FORTUNE_FIST_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "the_fool_emblem":
+                applyStaticModifier(entity, ModAttributes.THE_FOOL.get(), emblemItem.getUniqueID(),
+                        "The Fool Emblem Bonus", THE_FOOL_EMBLEM_THE_FOOL_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "the_magician_emblem":
+                applyStaticModifier(entity, ModAttributes.THE_MAGICIAN.get(), emblemItem.getUniqueID(),
+                        "The Magician Emblem Bonus", THE_MAGICIAN_EMBLEM_THE_MAGICIAN_BONUS, AttributeModifier.Operation.ADDITION);
                 break;
             case "anvil_emblem":
                 applyStaticModifier(entity, ModAttributes.ANVIL.get(), emblemItem.getUniqueID(),

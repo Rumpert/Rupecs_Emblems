@@ -1041,6 +1041,36 @@ public class ModItems {
                     Map.of(EmblemClasses.PASSIVE, 2),
                     "Fire heals instead of damaging"));
 
+    public static final RegistryObject<Item> JACK_EMBLEM = ITEMS.register("jack_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.D, List.of(EmblemTypes.CARD),
+                    Map.of(EmblemClasses.PASSIVE, 1),
+                    "+25% itemium's spawn chances"));
+
+    public static final RegistryObject<Item> KING_EMBLEM = ITEMS.register("king_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.XD, List.of(EmblemTypes.CARD),
+                    Map.of(EmblemClasses.PASSIVE, 1),
+                    "+40% itemium's spawn chances, Chance to multiply ore drops"));
+
+    public static final RegistryObject<Item> QUEEN_EMBLEM = ITEMS.register("queen_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.D, List.of(EmblemTypes.CARD),
+                    Map.of(EmblemClasses.PASSIVE, 1),
+                    "+30% itemium's spawn chances, Chance to multiply ore drops"));
+
+    public static final RegistryObject<Item> ACE_EMBLEM = ITEMS.register("ace_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.C, List.of(EmblemTypes.CARD),
+                    Map.of(EmblemClasses.PASSIVE, 1),
+                    "+100% itemium's spawn chances, Chance to multiply ore drops"));
+
+    public static final RegistryObject<Item> THE_FOOL_EMBLEM = ITEMS.register("the_fool_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.E, List.of(EmblemTypes.CARD),
+                    Map.of(EmblemClasses.ACTIVE, 1),
+                    "Press primary emblem ability to use your experience and try to teleport to spawn"));
+
+    public static final RegistryObject<Item> THE_MAGICIAN_EMBLEM = ITEMS.register("the_magician_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.D, List.of(EmblemTypes.CARD),
+                    Map.of(EmblemClasses.ACTIVE, 1),
+                    "Press primary emblem ability to use your experience enchant item in hand"));
+
 
 
 

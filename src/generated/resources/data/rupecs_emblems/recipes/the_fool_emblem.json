@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:ivy_emblem"
+    },
+    {
+      "item": "rupecs_emblems:rotten_emblem"
+    },
+    {
+      "tag": "rupecs_emblems:tier_one_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_one_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_one_itemiums"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:the_fool_emblem"
+  }
+}

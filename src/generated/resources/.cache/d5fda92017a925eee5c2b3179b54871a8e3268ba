@@ -1,20 +1,20 @@
-// 1.20.1	2026-05-30T14:28:18.3025863	Tags for minecraft:item mod id rupecs_emblems
+// 1.20.1	2026-06-07T19:48:48.7036621	Tags for minecraft:item mod id rupecs_emblems
 6d775fc13958a767fbbe962f72c303c8d028fc06 data/curios/tags/items/a_tier_emblem.json
 42ac7a011fb4ac44cb4c0575b5fc379aba142c48 data/curios/tags/items/b_tier_emblem.json
-0938b47618decee7b4704da049f9342264537353 data/curios/tags/items/c_tier_emblem.json
-a53138234ec0b00a344000238e4bcaf9df79d01f data/curios/tags/items/d_tier_emblem.json
-9373af16a564205586a41f8df5c2ce4951032be4 data/curios/tags/items/emblem.json
-1f54eee4844edcdd7aacd547adc5aacf2f234b7a data/curios/tags/items/e_tier_emblem.json
+f75c50d1902b8fc35ab63372715aef186fc68bda data/curios/tags/items/c_tier_emblem.json
+e9231b81610e0a550705ebe1b5dfc89130eafe6e data/curios/tags/items/d_tier_emblem.json
+5a8df654de1ce1ac3cb93fc825c51dc6b885520b data/curios/tags/items/emblem.json
+e002338c1df20c0d8232e1f0e09bf61a38bd8d42 data/curios/tags/items/e_tier_emblem.json
 b56166d7310be8c55f4efd3708c384269acbea2c data/curios/tags/items/f_tier_emblem.json
 41779519822e44f4fb5a8505a06632547a6ea4b5 data/curios/tags/items/ss_tier_emblem.json
 98e92486ea8f59ca97a0b29d1c5b33bfa354c208 data/curios/tags/items/s_tier_emblem.json
 9195dfc2f57b6f3c7aee0281060f105b4bbf0278 data/curios/tags/items/u_tier_emblem.json
 6d775fc13958a767fbbe962f72c303c8d028fc06 data/rupecs_emblems/tags/items/a_tier_emblems.json
 42ac7a011fb4ac44cb4c0575b5fc379aba142c48 data/rupecs_emblems/tags/items/b_tier_emblems.json
-0938b47618decee7b4704da049f9342264537353 data/rupecs_emblems/tags/items/c_tier_emblems.json
-a53138234ec0b00a344000238e4bcaf9df79d01f data/rupecs_emblems/tags/items/d_tier_emblems.json
-9373af16a564205586a41f8df5c2ce4951032be4 data/rupecs_emblems/tags/items/emblems.json
-1f54eee4844edcdd7aacd547adc5aacf2f234b7a data/rupecs_emblems/tags/items/e_tier_emblems.json
+f75c50d1902b8fc35ab63372715aef186fc68bda data/rupecs_emblems/tags/items/c_tier_emblems.json
+e9231b81610e0a550705ebe1b5dfc89130eafe6e data/rupecs_emblems/tags/items/d_tier_emblems.json
+5a8df654de1ce1ac3cb93fc825c51dc6b885520b data/rupecs_emblems/tags/items/emblems.json
+e002338c1df20c0d8232e1f0e09bf61a38bd8d42 data/rupecs_emblems/tags/items/e_tier_emblems.json
 6cd0e8de228bbf9c1a7f34a398208f2f02158897 data/rupecs_emblems/tags/items/food.json
 b56166d7310be8c55f4efd3708c384269acbea2c data/rupecs_emblems/tags/items/f_tier_emblems.json
 708762ee1098d9fb9dd1cd1b6d68285f7bc4e5d2 data/rupecs_emblems/tags/items/meat.json

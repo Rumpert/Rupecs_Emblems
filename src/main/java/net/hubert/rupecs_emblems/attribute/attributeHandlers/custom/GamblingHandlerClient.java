@@ -11,6 +11,7 @@ import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.InputEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -23,13 +24,13 @@ import java.util.UUID;
 public class GamblingHandlerClient {
     public static final KeyMapping GAMBLING_KEY = Keybinds.INSTANCE.secondaryEmblemAbility;
     private static final String COOLDOWN_NAME = "Gambling";
-    private static final int COOLDOWN_SECONDS = 15;
+    private static final int COOLDOWN_SECONDS = 2;
     @SubscribeEvent
     public static void onKeyInput(InputEvent.Key event) {
 
         Minecraft mc = Minecraft.getInstance();
         Player player = mc.player;
-        if (mc.player != null) {
+        if (mc.player != null && !player.getMainHandItem().is(Items.AIR)) {
 
             var gamblerAttr = player.getAttribute(ModAttributes.GAMBLER.get());
             if (gamblerAttr == null || gamblerAttr.getValue() <= 0) return;

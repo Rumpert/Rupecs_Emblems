@@ -2110,6 +2110,57 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.NORTHERN_LIGHTS.get()), has(ModItems.NORTHERN_LIGHTS.get()))
                 .save(pWriter);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.JACK_EMBLEM.get(), 1)
+                .requires(ModItems.JACK_OF_SPADES.get(),5)
+                .requires(ModItems.FINDERS_EMBLEM.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS))
+                .requires(Items.IRON_HELMET)
+                .unlockedBy(getHasName(ModItems.JACK_OF_SPADES.get()), has(ModItems.JACK_OF_SPADES.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.QUEEN_EMBLEM.get(), 1)
+                .requires(ModItems.JACK_OF_SPADES.get(),5)
+                .requires(ModItems.JACK_EMBLEM.get())
+                .requires(ModItems.CRYSTAL_EMBLEM.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS))
+                .unlockedBy(getHasName(ModItems.JACK_EMBLEM.get()), has(ModItems.JACK_EMBLEM.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.KING_EMBLEM.get(), 1)
+                .requires(ModItems.JACK_OF_SPADES.get(),5)
+                .requires(ModItems.QUEEN_EMBLEM.get())
+                .requires(ModItems.JACK_EMBLEM.get())
+                .requires(ModItems.CRYSTAL_EMBLEM.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS))
+                .unlockedBy(getHasName(ModItems.QUEEN_EMBLEM.get()), has(ModItems.QUEEN_EMBLEM.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.ACE_EMBLEM.get(), 1)
+                .requires(ModItems.JACK_OF_SPADES.get(),4)
+                .requires(ModItems.KING_EMBLEM.get())
+                .requires(ModItems.QUEEN_EMBLEM.get())
+                .requires(ModItems.JACK_EMBLEM.get())
+                .requires(ModItems.CRYSTAL_EMBLEM.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS))
+                .unlockedBy(getHasName(ModItems.KING_EMBLEM.get()), has(ModItems.KING_EMBLEM.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.THE_FOOL_EMBLEM.get(), 1)
+                .requires(ModItems.JACK_OF_SPADES.get(),4)
+                .requires(ModItems.IVY_EMBLEM.get())
+                .requires(ModItems.ROTTEN_EMBLEM.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_ONE_ITEMIUMS),3)
+                .unlockedBy(getHasName(ModItems.JACK_OF_SPADES.get()), has(ModItems.JACK_OF_SPADES.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.THE_MAGICIAN_EMBLEM.get(), 1)
+                .requires(ModItems.JACK_OF_SPADES.get(),4)
+                .requires(ModItems.GOLDEN_EMBLEM.get())
+                .requires(ModItems.WATER_EMBLEM.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS),3)
+                .unlockedBy(getHasName(ModItems.JACK_OF_SPADES.get()), has(ModItems.JACK_OF_SPADES.get()))
+                .save(pWriter);
+
 
 
         RealityManipulationRecipeBuilder.realityManipulation(ModItems.VERDANT_CORE.get(), 1)

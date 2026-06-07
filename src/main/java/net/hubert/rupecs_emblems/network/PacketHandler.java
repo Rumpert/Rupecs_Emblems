@@ -39,6 +39,18 @@ public class PacketHandler {
                 .consumerMainThread(ReturnPacket::handle)
                 .add();
 
+        net.messageBuilder(FoolPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(FoolPacket::new)
+                .encoder(FoolPacket::toBytes)
+                .consumerMainThread(FoolPacket::handle)
+                .add();
+
+        net.messageBuilder(MagicianPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(MagicianPacket::new)
+                .encoder(MagicianPacket::toBytes)
+                .consumerMainThread(MagicianPacket::handle)
+                .add();
+
         // Register CooldownSyncPacket (server → client)
         net.messageBuilder(CooldownSyncPacket.class, id(), NetworkDirection.PLAY_TO_CLIENT)
                 .decoder(CooldownSyncPacket::new)

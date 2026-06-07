@@ -394,6 +394,14 @@ public class ModAttributes {
             ATTRIBUTES.register("emberheart",
                     () -> new RangedAttribute("attribute.rupecs_emblems.emberheart", 0,0.0,1024.0)
                             .setSyncable(true));
+    public static final RegistryObject<Attribute> THE_FOOL =
+            ATTRIBUTES.register("the_fool",
+                    () -> new RangedAttribute("attribute.rupecs_emblems.the_fool", 0,0.0,1024.0)
+                            .setSyncable(true));
+    public static final RegistryObject<Attribute> THE_MAGICIAN =
+            ATTRIBUTES.register("the_magician",
+                    () -> new RangedAttribute("attribute.rupecs_emblems.the_magician", 0,0.0,1024.0)
+                            .setSyncable(true));
 
 
     public static void register(IEventBus eventBus) {

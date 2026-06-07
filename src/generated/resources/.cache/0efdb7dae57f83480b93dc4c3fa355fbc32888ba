@@ -1,5 +1,6 @@
-// 1.20.1	2026-05-30T14:28:18.2990675	Item Models: rupecs_emblems
+// 1.20.1	2026-06-07T19:48:48.6979627	Item Models: rupecs_emblems
 93ae698dc47e3e4587d66327c719818744419fe1 assets/rupecs_emblems/models/item/absorber_emblem.json
+2ea3cd972d647da298c9395b229866f8e9634e8f assets/rupecs_emblems/models/item/ace_emblem.json
 6a6abf129d5a49e724fcb33ed92510df3a8e505a assets/rupecs_emblems/models/item/ancient_emblemium.json
 3912db3326fd9a2b56a07ba9676839185af0af2e assets/rupecs_emblems/models/item/ancient_remains.json
 d69f6b29d41347f70f74c3181a712100030b6316 assets/rupecs_emblems/models/item/anthem_emblem.json
@@ -138,8 +139,10 @@ f70a992dfe7d70bdc663705128080055e2b11564 assets/rupecs_emblems/models/item/iron_
 1dade9c1ddfda57488ca6699c875f521b41f09da assets/rupecs_emblems/models/item/iron_plating.json
 426f5f644ebe87f96c6ab5d177018617616e2c33 assets/rupecs_emblems/models/item/itemium_emblem.json
 1c88d8b2737c42a4f951dd9eb09d548abdfcbd9c assets/rupecs_emblems/models/item/ivy_emblem.json
+bad1534f92660f85e210a904309d4591b31fa3af assets/rupecs_emblems/models/item/jack_emblem.json
 e2a25124f6b2b82240482462f66ff17fef38b0df assets/rupecs_emblems/models/item/jack_of_spades.json
 cca9651612106f9d60886e2e9a47ee4b894bd471 assets/rupecs_emblems/models/item/jade_earring.json
+7d7801171e6ef010421958e6ef0185d4cfdba3b2 assets/rupecs_emblems/models/item/king_emblem.json
 2e3646518c21aa59899d6aeb2845b26b3252ea91 assets/rupecs_emblems/models/item/knight_emblem.json
 da7d8ebce074024c0e757a19007c408eb0f2787d assets/rupecs_emblems/models/item/leprechauns_emblem.json
 af9dc33e8ad263a6561ea2d59c96c5ddff306346 assets/rupecs_emblems/models/item/lifeless_cave_emblem.json
@@ -201,6 +204,7 @@ f1800427214af4940c76dd959554894cda97aa98 assets/rupecs_emblems/models/item/prome
 a422840e5a4126be92ae047b9278f3057c43dfd1 assets/rupecs_emblems/models/item/puddle_emblem.json
 411c0ca04bff5c5908eb0e5166e6fd665c456425 assets/rupecs_emblems/models/item/pulse_emblem.json
 01dbcbd5dc5f56942f84ca2020c25986a1e118d0 assets/rupecs_emblems/models/item/pyro_emblem.json
+78eca1653d10234616bdc7644a135f1ef4a3eab3 assets/rupecs_emblems/models/item/queen_emblem.json
 f3be637cdd7238889363dcbcbc17f10186341f52 assets/rupecs_emblems/models/item/radiant_cave_emblem.json
 6ed73afab37cdde6b3b70aac8adae899df3ecd0b assets/rupecs_emblems/models/item/radiant_geode.json
 4520a64b464b1bdd828e31a6a1e6be1cdc44a9b4 assets/rupecs_emblems/models/item/rainforest_emblem.json
@@ -263,6 +267,8 @@ bde01a4f098bc81e6bbfff594e6466f374adb4c2 assets/rupecs_emblems/models/item/tank_
 33947d1a4aea4724c19b7ef4e4af1e161a20fc78 assets/rupecs_emblems/models/item/tear_emblem.json
 2d4399a6ba7e7033dc8d999ae1e922e48cdbeb98 assets/rupecs_emblems/models/item/tesla_bar.json
 743c531bd08f46923fb3ea55958f2c7f9c1f07b0 assets/rupecs_emblems/models/item/the_earth.json
+2454dffcde97cd6b1481e533fdeede4b30b0fb8b assets/rupecs_emblems/models/item/the_fool_emblem.json
+33647f93e71d2588b98145d8c079af6c2eabf3b7 assets/rupecs_emblems/models/item/the_magician_emblem.json
 b91e77e79e4237a51070788acf5e62f0904b2ef1 assets/rupecs_emblems/models/item/the_tank_emblem.json
 3f92f196a0191a845d7459392c106d2890f9e136 assets/rupecs_emblems/models/item/the_torch.json
 a0db98227d6b622b329876526612612938d4e5e9 assets/rupecs_emblems/models/item/the_truth_emblem.json

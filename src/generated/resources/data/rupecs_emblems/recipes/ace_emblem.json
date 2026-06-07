@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:king_emblem"
+    },
+    {
+      "item": "rupecs_emblems:queen_emblem"
+    },
+    {
+      "item": "rupecs_emblems:jack_emblem"
+    },
+    {
+      "item": "rupecs_emblems:crystal_emblem"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:ace_emblem"
+  }
+}

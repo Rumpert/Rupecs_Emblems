@@ -1533,6 +1533,33 @@ public class JEIPlugin implements IModPlugin {
                 Component.literal("Emblem of The Creator's Blessing Effects:\n" +
                         "+450% itemium spawn chance"));
 
+        registration.addIngredientInfo(new ItemStack(ModItems.JACK_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("Jack Emblem Effects:\n" +
+                        "+25% itemium spawn chance"));
+
+        registration.addIngredientInfo(new ItemStack(ModItems.KING_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("King Emblem Effects:\n" +
+                        "+40% itemium spawn chance\n"+
+                        "+2 Fortune Fist"));
+
+        registration.addIngredientInfo(new ItemStack(ModItems.QUEEN_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("Queen Emblem Effects:\n" +
+                        "+30% itemium spawn chance\n"+
+                        "+1 Fortune Fist"));
+
+        registration.addIngredientInfo(new ItemStack(ModItems.ACE_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("Ace Emblem Effects:\n" +
+                        "+100% itemium spawn chance\n"+
+                        "+3 Fortune Fist"));
+
+        registration.addIngredientInfo(new ItemStack(ModItems.THE_FOOL_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("The Fool Emblem Effects:\n" +
+                        "Primary ability: use 100xp points with 60% success chance to teleport to spawn"));
+
+        registration.addIngredientInfo(new ItemStack(ModItems.THE_MAGICIAN_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("The Magician Emblem Effects:\n" +
+                        "Primary ability: use 200xp points to enchant unenchanted item in hand"));
+
         registration.addIngredientInfo(new ItemStack(ModItems.ANVIL_EMBLEM.get()), VanillaTypes.ITEM_STACK,
                 Component.literal("Anvil Emblem Effects:\n" +
                         "+5% crafted items durability"));
