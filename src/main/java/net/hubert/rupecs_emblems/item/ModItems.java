@@ -1069,7 +1069,22 @@ public class ModItems {
     public static final RegistryObject<Item> THE_MAGICIAN_EMBLEM = ITEMS.register("the_magician_emblem",
             () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.D, List.of(EmblemTypes.CARD),
                     Map.of(EmblemClasses.ACTIVE, 1),
-                    "Press primary emblem ability to use your experience enchant item in hand"));
+                    "Press primary emblem ability to use your experience to enchant item in hand"));
+
+    public static final RegistryObject<Item> THE_HIGH_PRIESTESS_EMBLEM = ITEMS.register("the_high_priestess_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.C, List.of(EmblemTypes.CARD),
+                    Map.of(EmblemClasses.ACTIVE, 2),
+                    "Press primary emblem ability to gain temporary immortality"));
+
+    public static final RegistryObject<Item> THE_EMPRESS_EMBLEM = ITEMS.register("the_empress_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.XD, List.of(EmblemTypes.CARD),
+                    Map.of(EmblemClasses.ACTIVE, 1),
+                    "Press primary emblem ability to gain temporary farmers blessing"));
+
+    public static final RegistryObject<Item> THE_EMPEROR_EMBLEM = ITEMS.register("the_emperor_emblem",
+            () -> new ModEmblemItem(new Item.Properties(), EmblemTiers.XD, List.of(EmblemTypes.CARD),
+                    Map.of(EmblemClasses.ACTIVE, 1),
+                    "Press primary emblem ability to set a temporary checkpoint and again to teleport back to it"));
 
 
 

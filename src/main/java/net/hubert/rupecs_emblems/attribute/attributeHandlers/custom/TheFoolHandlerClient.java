@@ -31,6 +31,7 @@ public class TheFoolHandlerClient {
 
         Minecraft mc = Minecraft.getInstance();
         Player player = mc.player;
+        if (player == null)return;
 
         var foolAttr = player.getAttribute(ModAttributes.THE_FOOL.get());
         if (foolAttr == null || foolAttr.getValue() <= 0) return;

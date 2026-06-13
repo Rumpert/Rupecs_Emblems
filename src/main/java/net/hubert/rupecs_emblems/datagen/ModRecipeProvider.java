@@ -2161,6 +2161,32 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.JACK_OF_SPADES.get()), has(ModItems.JACK_OF_SPADES.get()))
                 .save(pWriter);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.THE_HIGH_PRIESTESS_EMBLEM.get(), 1)
+                .requires(ModItems.JACK_OF_SPADES.get(),4)
+                .requires(ModItems.AURIC_EMBLEM.get())
+                .requires(ModItems.RUTHLESS_GUARDIAN_EMBLEM.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS),3)
+                .unlockedBy(getHasName(ModItems.JACK_OF_SPADES.get()), has(ModItems.JACK_OF_SPADES.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.THE_EMPRESS_EMBLEM.get(), 1)
+                .requires(ModItems.JACK_OF_SPADES.get(),3)
+                .requires(ModItems.ORCHID_EMBLEM.get())
+                .requires(ModItems.TREE_EMBLEM.get())
+                .requires(ModItems.RAIN_EMBLEM.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS),3)
+                .unlockedBy(getHasName(ModItems.JACK_OF_SPADES.get()), has(ModItems.JACK_OF_SPADES.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.THE_EMPEROR_EMBLEM.get(), 1)
+                .requires(ModItems.JACK_OF_SPADES.get(),3)
+                .requires(ModItems.TEAR_EMBLEM.get())
+                .requires(ModItems.SOUL_EMBLEM.get())
+                .requires(ModItems.MIRROR_EMBLEM.get())
+                .requires(Ingredient.of(ModTags.Items.TIER_THREE_ITEMIUMS),3)
+                .unlockedBy(getHasName(ModItems.JACK_OF_SPADES.get()), has(ModItems.JACK_OF_SPADES.get()))
+                .save(pWriter);
+
 
 
         RealityManipulationRecipeBuilder.realityManipulation(ModItems.VERDANT_CORE.get(), 1)

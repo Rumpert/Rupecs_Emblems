@@ -5,39 +5,52 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.network.NetworkEvent;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 import java.util.function.Supplier;
 
+// net.hubert.rupecs_emblems.network.packet.CooldownSyncPacket
 public class CooldownSyncPacket {
     private final UUID playerUUID;
-    private final Map<String, Integer> cooldownTicks;
+    private final Map<String, Integer> ticks;
     private final Map<String, ResourceLocation> icons;
 
-    public CooldownSyncPacket(UUID playerUUID, Map<String, Integer> cooldownTicks, Map<String, ResourceLocation> icons) {
+    public CooldownSyncPacket(UUID playerUUID, Map<String, Integer> ticks, Map<String, ResourceLocation> icons) {
         this.playerUUID = playerUUID;
-        this.cooldownTicks = cooldownTicks;
+        this.ticks = ticks;
         this.icons = icons;
     }
 
     public CooldownSyncPacket(FriendlyByteBuf buf) {
-        this.playerUUID = buf.readUUID();
-        this.cooldownTicks = buf.readMap(FriendlyByteBuf::readUtf, FriendlyByteBuf::readVarInt);
-        this.icons = buf.readMap(FriendlyByteBuf::readUtf, FriendlyByteBuf::readResourceLocation);
+        playerUUID = buf.readUUID();
+        int size = buf.readInt();
+        ticks = new HashMap<>();
+        icons = new HashMap<>();
+        for (int i = 0; i < size; i++) {
+            String id = buf.readUtf();
+            int tick = buf.readInt();
+            ResourceLocation icon = new ResourceLocation(buf.readUtf());
+            ticks.put(id, tick);
+            icons.put(id, icon);
+        }
     }
 
     public void toBytes(FriendlyByteBuf buf) {
         buf.writeUUID(playerUUID);
-        buf.writeMap(cooldownTicks, FriendlyByteBuf::writeUtf, FriendlyByteBuf::writeVarInt);
-        buf.writeMap(icons, FriendlyByteBuf::writeUtf, FriendlyByteBuf::writeResourceLocation);
+        buf.writeInt(ticks.size());
+        for (Map.Entry<String, Integer> entry : ticks.entrySet()) {
+            buf.writeUtf(entry.getKey());
+            buf.writeInt(entry.getValue());
+            buf.writeUtf(icons.get(entry.getKey()).toString());
+        }
     }
 
-    public void handle(Supplier<NetworkEvent.Context> contextSupplier) {
-        NetworkEvent.Context context = contextSupplier.get();
-        context.enqueueWork(() -> {
-            // Handle the sync on client side
-            CooldownManager.updateClientCooldowns(playerUUID, cooldownTicks, icons);
+    public void handle(Supplier<NetworkEvent.Context> ctx) {
+        ctx.get().enqueueWork(() -> {
+            // Client side: update local cooldown cache
+            CooldownManager.updateClientCooldowns(playerUUID, ticks, icons);
         });
-        context.setPacketHandled(true);
+        ctx.get().setPacketHandled(true);
     }
 }

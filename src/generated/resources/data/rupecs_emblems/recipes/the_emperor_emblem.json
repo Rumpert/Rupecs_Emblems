@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:tear_emblem"
+    },
+    {
+      "item": "rupecs_emblems:soul_emblem"
+    },
+    {
+      "item": "rupecs_emblems:mirror_emblem"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:the_emperor_emblem"
+  }
+}

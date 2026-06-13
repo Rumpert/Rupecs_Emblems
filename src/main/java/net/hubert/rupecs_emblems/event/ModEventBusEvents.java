@@ -11,10 +11,12 @@ import net.hubert.rupecs_emblems.particle.ModParticles;
 import net.hubert.rupecs_emblems.particle.custom.GreenHeartParticle;
 import net.hubert.rupecs_emblems.particle.custom.SmallHeartParticle;
 import net.hubert.rupecs_emblems.particle.custom.WithererParticle;
+import net.hubert.rupecs_emblems.util.ICooldownCapability;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
 import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
+import net.minecraftforge.common.capabilities.RegisterCapabilitiesEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -32,6 +34,10 @@ public class ModEventBusEvents {
         event.registerSpriteSet(ModParticles.SMALL_HEART_PARTICLES.get(), SmallHeartParticle.Provider::new);
         event.registerSpriteSet(ModParticles.GREEN_HEART_PARTICLES.get(), GreenHeartParticle.Provider::new);
         event.registerSpriteSet(ModParticles.WITHERER_PARTICLES.get(), WithererParticle.Provider::new);
+    }
+    @SubscribeEvent
+    public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+        event.register(ICooldownCapability.class);
     }
 
 }

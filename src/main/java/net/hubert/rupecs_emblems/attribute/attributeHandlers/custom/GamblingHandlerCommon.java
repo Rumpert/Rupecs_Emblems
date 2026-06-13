@@ -20,6 +20,11 @@ public class GamblingHandlerCommon {
 
     public static void gamble(Player player) {
         if (!player.getMainHandItem().is(Items.AIR)) {
+
+            if ((double) player.getMainHandItem().getCount() /player.getMainHandItem().getMaxStackSize() < 0.3){
+                sendMsg(player, Component.literal("Must gamble at least "+(int)Math.ceil(0.3*player.getMainHandItem().getMaxStackSize())).withStyle(ChatFormatting.RED));
+                return;
+            }
             if (playerGambleTimes.containsKey(player.getUUID())) {
                 playerGambleTimes.put(player.getUUID(), playerGambleTimes.get(player.getUUID()) + 1);
             } else {
@@ -29,11 +34,6 @@ public class GamblingHandlerCommon {
                 playerGambleTimes.put(player.getUUID(), 1);
                 hasJustWon = false;
             }
-            if ((double) player.getMainHandItem().getCount() /player.getMainHandItem().getMaxStackSize() < 0.3){
-                sendMsg(player, Component.literal("Must gamble at least "+(int)Math.ceil(0.3*player.getMainHandItem().getMaxStackSize())).withStyle(ChatFormatting.RED));
-                return;
-            }
-
 
             // Respect cooldown
             var gamblerAttr = player.getAttribute(ModAttributes.GAMBLER.get());
@@ -47,7 +47,7 @@ public class GamblingHandlerCommon {
             // Roll luck
             float bestRoll = 1f;
             Random random = new Random();
-            for (int i = 0; i < (int) luck+0.5*(playerGambleTimes.get(player.getUUID())-1); i++) {
+            for (int i = 0; i < (int) (luck+0.2*(playerGambleTimes.get(player.getUUID())-1)); i++) {
                 float roll = random.nextFloat();
                 bestRoll = Math.min(bestRoll, roll);
             }
@@ -78,9 +78,15 @@ public class GamblingHandlerCommon {
                 } else if (roll <= 0.3f) {
                     giveItems(player, itemStack, count);
                     sendMsg(player, "Alright! +100% items!");
+                } else if (roll <= 0.5f){
+                    giveItems(player, itemStack, count/2);
+                    sendMsg(player, "Sure, +50% items!");
+                } else if (roll <= 0.7f){
+                    giveItems(player, itemStack, count/5);
+                    sendMsg(player, "Okay +20% items!");
                 } else {
-                    sendMsg(player, "Welp. -1 item.");
-                    player.getMainHandItem().shrink(1);
+                    giveItems(player, itemStack, count/20);
+                    sendMsg(player, "Damn +5% items!");
                 }
             } else {
                 int count = itemStack.getCount();
@@ -120,9 +126,18 @@ public class GamblingHandlerCommon {
                     int reward = Math.max(1, maxStack / 4);
                     giveItems(player, itemStack, reward);
                     sendMsg(player, "Alright! +" + reward + " items!");
-                } else {
-                    sendMsg(player, "Welp. -1 item.");
-                    player.getMainHandItem().shrink(1);
+                } else if (roll <= 0.5f){
+                    int reward = Math.max(1, maxStack / 8);
+                    giveItems(player, itemStack, reward);
+                    sendMsg(player, "Sure, +" + reward + " items!");
+                }else if (roll <= 0.7f){
+                    int reward = Math.max(1, maxStack / 16);
+                    giveItems(player, itemStack, reward);
+                    sendMsg(player, "Okay +" + reward + " items!");
+                }else {
+                    int reward = Math.max(1, maxStack / 32);
+                    giveItems(player, itemStack, reward);
+                    sendMsg(player, "Damn +" + reward + " items!");
                 }
             } else {
                 if (roll <= 0.5f) {

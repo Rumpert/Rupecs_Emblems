@@ -1,4 +1,4 @@
-// 1.20.1	2026-06-07T19:48:48.6979627	Item Models: rupecs_emblems
+// 1.20.1	2026-06-10T12:05:55.2036298	Item Models: rupecs_emblems
 93ae698dc47e3e4587d66327c719818744419fe1 assets/rupecs_emblems/models/item/absorber_emblem.json
 2ea3cd972d647da298c9395b229866f8e9634e8f assets/rupecs_emblems/models/item/ace_emblem.json
 6a6abf129d5a49e724fcb33ed92510df3a8e505a assets/rupecs_emblems/models/item/ancient_emblemium.json
@@ -267,7 +267,10 @@ bde01a4f098bc81e6bbfff594e6466f374adb4c2 assets/rupecs_emblems/models/item/tank_
 33947d1a4aea4724c19b7ef4e4af1e161a20fc78 assets/rupecs_emblems/models/item/tear_emblem.json
 2d4399a6ba7e7033dc8d999ae1e922e48cdbeb98 assets/rupecs_emblems/models/item/tesla_bar.json
 743c531bd08f46923fb3ea55958f2c7f9c1f07b0 assets/rupecs_emblems/models/item/the_earth.json
+575947cfa5ea15dfef16cfeb2c0c7b5bc6697637 assets/rupecs_emblems/models/item/the_emperor_emblem.json
+8443f5c096c73f6545b335a09d7ffd2613e4010c assets/rupecs_emblems/models/item/the_empress_emblem.json
 2454dffcde97cd6b1481e533fdeede4b30b0fb8b assets/rupecs_emblems/models/item/the_fool_emblem.json
+34e98f071a05157fc9f5ce9282e1b61ca6136ff3 assets/rupecs_emblems/models/item/the_high_priestess_emblem.json
 33647f93e71d2588b98145d8c079af6c2eabf3b7 assets/rupecs_emblems/models/item/the_magician_emblem.json
 b91e77e79e4237a51070788acf5e62f0904b2ef1 assets/rupecs_emblems/models/item/the_tank_emblem.json
 3f92f196a0191a845d7459392c106d2890f9e136 assets/rupecs_emblems/models/item/the_torch.json

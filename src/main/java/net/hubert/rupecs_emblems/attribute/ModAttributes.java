@@ -402,6 +402,18 @@ public class ModAttributes {
             ATTRIBUTES.register("the_magician",
                     () -> new RangedAttribute("attribute.rupecs_emblems.the_magician", 0,0.0,1024.0)
                             .setSyncable(true));
+    public static final RegistryObject<Attribute> THE_HIGH_PRIESTESS =
+            ATTRIBUTES.register("the_high_priestess",
+                    () -> new RangedAttribute("attribute.rupecs_emblems.the_high_priestess", 0,0.0,1024.0)
+                            .setSyncable(true));
+    public static final RegistryObject<Attribute> THE_EMPRESS =
+            ATTRIBUTES.register("the_empress",
+                    () -> new RangedAttribute("attribute.rupecs_emblems.the_empress", 0,0.0,1024.0)
+                            .setSyncable(true));
+    public static final RegistryObject<Attribute> THE_EMPEROR =
+            ATTRIBUTES.register("the_emperor",
+                    () -> new RangedAttribute("attribute.rupecs_emblems.the_emperor", 0,0.0,1024.0)
+                            .setSyncable(true));
 
 
     public static void register(IEventBus eventBus) {

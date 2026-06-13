@@ -1,46 +1,46 @@
-[07cze2026 19:48:42.077] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\huber\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, rupecs_emblems, --all, --output, C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\src\generated\resources, --existing, C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\src\main\resources, --mixin.config, mixin.rupecs_emblems.json]
-[07cze2026 19:48:42.080] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[07cze2026 19:48:42.166] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[07cze2026 19:48:42.201] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/huber/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[07cze2026 19:48:42.384] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\huber\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.6\9e86bf67e222253576e982856d9958695725adb5\javafmllanguage-1.20.1-47.4.6.jar is missing mods.toml file
-[07cze2026 19:48:42.387] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\huber\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.6\56100545804adc991cc48ab68b86ba46c5873246\lowcodelanguage-1.20.1-47.4.6.jar is missing mods.toml file
-[07cze2026 19:48:42.389] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\huber\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.6\fd228d7d879a9da774eda022ea3092cedb5178f1\mclanguage-1.20.1-47.4.6.jar is missing mods.toml file
-[07cze2026 19:48:42.391] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\huber\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.6\cefc55ada370ce2f23f92834530eb967c0de1fdd\fmlcore-1.20.1-47.4.6.jar is missing mods.toml file
-[07cze2026 19:48:42.521] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[07cze2026 19:48:43.622] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[07cze2026 19:48:43.632] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\huber\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, rupecs_emblems, --all, --output, C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\src\generated\resources, --existing, C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\src\main\resources]
-[07cze2026 19:48:43.714] [main/WARN] [mixin/]: Reference map 'mixin.rupecs_emblems.refmap.json' for mixin.rupecs_emblems.json could not be read. If this is a development environment you can ignore this message
-[07cze2026 19:48:43.946] [main/INFO] [mixin/]: Remapping refMap moonlight-common-refmap.json using C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\build\createSrgToMcp\output.srg
-[07cze2026 19:48:43.948] [main/INFO] [mixin/]: Remapping refMap moonlight-forge-refmap.json using C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\build\createSrgToMcp\output.srg
-[07cze2026 19:48:43.948] [main/INFO] [mixin/]: Remapping refMap mixin.rupecs_elytras.refmap.json using C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\build\createSrgToMcp\output.srg
-[07cze2026 19:48:43.949] [main/INFO] [mixin/]: Remapping refMap dummmmmmy-common-refmap.json using C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\build\createSrgToMcp\output.srg
-[07cze2026 19:48:43.950] [main/INFO] [mixin/]: Remapping refMap curios.refmap.json using C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\build\createSrgToMcp\output.srg
-[07cze2026 19:48:44.443] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [rupecs_emblems]
-[07cze2026 19:48:44.508] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[07cze2026 19:48:47.714] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.6, for MC 1.20.1 with MCP 20230612.114412
-[07cze2026 19:48:47.715] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.6 Initialized
-[07cze2026 19:48:47.961] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[07cze2026 19:48:47.965] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.289 ms
-[07cze2026 19:48:48.089] [main/INFO] [Moonlight/]: Initialized block sets in 4ms
-[07cze2026 19:48:48.283] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/huber/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[07cze2026 19:48:48.283] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/huber/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[07cze2026 19:48:48.395] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[07cze2026 19:48:48.472] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 76 ms
-[07cze2026 19:48:48.472] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: rupecs_emblems
-[07cze2026 19:48:48.542] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: rupecs_emblems finished after 70 ms
-[07cze2026 19:48:48.543] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: rupecs_emblems
-[07cze2026 19:48:48.646] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: rupecs_emblems finished after 103 ms
-[07cze2026 19:48:48.646] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Advancements
-[07cze2026 19:48:48.657] [main/INFO] [net.minecraft.data.DataGenerator/]: Advancements finished after 10 ms
-[07cze2026 19:48:48.657] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[07cze2026 19:48:48.672] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 15 ms
-[07cze2026 19:48:48.673] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id rupecs_emblems
-[07cze2026 19:48:48.682] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id rupecs_emblems finished after 9 ms
-[07cze2026 19:48:48.682] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id rupecs_emblems
-[07cze2026 19:48:48.692] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id rupecs_emblems finished after 9 ms
-[07cze2026 19:48:48.692] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:worldgen/structure mod id rupecs_emblems
-[07cze2026 19:48:48.693] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:worldgen/structure mod id rupecs_emblems finished after 1 ms
-[07cze2026 19:48:48.693] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : rupecs_emblems
-[07cze2026 19:48:48.696] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : rupecs_emblems finished after 3 ms
-[07cze2026 19:48:48.697] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 302 ms
-[07cze2026 19:48:48.730] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 1030, old count: 1027, new count: 1031, removed stale: 0, written: 7
+[10cze2026 12:05:48.520] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\huber\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, rupecs_emblems, --all, --output, C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\src\generated\resources, --existing, C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\src\main\resources, --mixin.config, mixin.rupecs_emblems.json]
+[10cze2026 12:05:48.523] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[10cze2026 12:05:48.608] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[10cze2026 12:05:48.645] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/huber/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[10cze2026 12:05:48.849] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\huber\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.6\9e86bf67e222253576e982856d9958695725adb5\javafmllanguage-1.20.1-47.4.6.jar is missing mods.toml file
+[10cze2026 12:05:48.851] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\huber\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.6\56100545804adc991cc48ab68b86ba46c5873246\lowcodelanguage-1.20.1-47.4.6.jar is missing mods.toml file
+[10cze2026 12:05:48.852] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\huber\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.6\fd228d7d879a9da774eda022ea3092cedb5178f1\mclanguage-1.20.1-47.4.6.jar is missing mods.toml file
+[10cze2026 12:05:48.854] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\huber\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.6\cefc55ada370ce2f23f92834530eb967c0de1fdd\fmlcore-1.20.1-47.4.6.jar is missing mods.toml file
+[10cze2026 12:05:48.981] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[10cze2026 12:05:50.179] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10cze2026 12:05:50.192] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\huber\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, rupecs_emblems, --all, --output, C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\src\generated\resources, --existing, C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\src\main\resources]
+[10cze2026 12:05:50.270] [main/WARN] [mixin/]: Reference map 'mixin.rupecs_emblems.refmap.json' for mixin.rupecs_emblems.json could not be read. If this is a development environment you can ignore this message
+[10cze2026 12:05:50.531] [main/INFO] [mixin/]: Remapping refMap moonlight-common-refmap.json using C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\build\createSrgToMcp\output.srg
+[10cze2026 12:05:50.532] [main/INFO] [mixin/]: Remapping refMap moonlight-forge-refmap.json using C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\build\createSrgToMcp\output.srg
+[10cze2026 12:05:50.533] [main/INFO] [mixin/]: Remapping refMap mixin.rupecs_elytras.refmap.json using C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\build\createSrgToMcp\output.srg
+[10cze2026 12:05:50.533] [main/INFO] [mixin/]: Remapping refMap dummmmmmy-common-refmap.json using C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\build\createSrgToMcp\output.srg
+[10cze2026 12:05:50.534] [main/INFO] [mixin/]: Remapping refMap curios.refmap.json using C:\Users\huber\Downloads\forge-1.20.1-47.3.0-mdk\build\createSrgToMcp\output.srg
+[10cze2026 12:05:51.022] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [rupecs_emblems]
+[10cze2026 12:05:51.095] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[10cze2026 12:05:54.190] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.6, for MC 1.20.1 with MCP 20230612.114412
+[10cze2026 12:05:54.191] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.6 Initialized
+[10cze2026 12:05:54.430] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[10cze2026 12:05:54.434] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.461 ms
+[10cze2026 12:05:54.568] [main/INFO] [Moonlight/]: Initialized block sets in 5ms
+[10cze2026 12:05:54.759] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/huber/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[10cze2026 12:05:54.759] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/huber/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[10cze2026 12:05:54.893] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[10cze2026 12:05:54.979] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 85 ms
+[10cze2026 12:05:54.979] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: rupecs_emblems
+[10cze2026 12:05:55.057] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: rupecs_emblems finished after 77 ms
+[10cze2026 12:05:55.057] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: rupecs_emblems
+[10cze2026 12:05:55.150] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: rupecs_emblems finished after 93 ms
+[10cze2026 12:05:55.150] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Advancements
+[10cze2026 12:05:55.161] [main/INFO] [net.minecraft.data.DataGenerator/]: Advancements finished after 10 ms
+[10cze2026 12:05:55.161] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[10cze2026 12:05:55.178] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 17 ms
+[10cze2026 12:05:55.178] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id rupecs_emblems
+[10cze2026 12:05:55.188] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id rupecs_emblems finished after 9 ms
+[10cze2026 12:05:55.188] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id rupecs_emblems
+[10cze2026 12:05:55.197] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id rupecs_emblems finished after 9 ms
+[10cze2026 12:05:55.197] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:worldgen/structure mod id rupecs_emblems
+[10cze2026 12:05:55.199] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:worldgen/structure mod id rupecs_emblems finished after 0 ms
+[10cze2026 12:05:55.199] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : rupecs_emblems
+[10cze2026 12:05:55.202] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : rupecs_emblems finished after 3 ms
+[10cze2026 12:05:55.202] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 309 ms
+[10cze2026 12:05:55.239] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 1039, old count: 1034, new count: 1040, removed stale: 0, written: 9

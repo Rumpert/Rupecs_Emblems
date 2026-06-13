@@ -31,6 +31,7 @@ public class TheMagicianHandlerClient {
 
         Minecraft mc = Minecraft.getInstance();
         Player player = mc.player;
+        if (player == null)return;
 
         var magicianAttr = player.getAttribute(ModAttributes.THE_MAGICIAN.get());
         if (magicianAttr == null || magicianAttr.getValue() <= 0) return;

@@ -1560,6 +1560,18 @@ public class JEIPlugin implements IModPlugin {
                 Component.literal("The Magician Emblem Effects:\n" +
                         "Primary ability: use 200xp points to enchant unenchanted item in hand"));
 
+        registration.addIngredientInfo(new ItemStack(ModItems.THE_HIGH_PRIESTESS_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("The High Priestess Emblem Effects:\n" +
+                        "Primary ability: Temporary immortality"));
+
+        registration.addIngredientInfo(new ItemStack(ModItems.THE_EMPRESS_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("The Empress Emblem Effects:\n" +
+                        "Primary ability: Gives you temporary, +10 Farmer Blessing"));
+
+        registration.addIngredientInfo(new ItemStack(ModItems.THE_EMPEROR_EMBLEM.get()), VanillaTypes.ITEM_STACK,
+                Component.literal("The Emperor Emblem Effects:\n" +
+                        "Primary ability: Sets a point at first use, Teleports to the set point at second"));
+
         registration.addIngredientInfo(new ItemStack(ModItems.ANVIL_EMBLEM.get()), VanillaTypes.ITEM_STACK,
                 Component.literal("Anvil Emblem Effects:\n" +
                         "+5% crafted items durability"));

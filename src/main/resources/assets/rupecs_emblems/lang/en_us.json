@@ -315,6 +315,9 @@
   "item.rupecs_emblems.ace_emblem": "Ace Emblem",
   "item.rupecs_emblems.the_fool_emblem": "The Fool Emblem",
   "item.rupecs_emblems.the_magician_emblem": "The Magician Emblem",
+  "item.rupecs_emblems.the_high_priestess_emblem": "The High Priestess Emblem",
+  "item.rupecs_emblems.the_empress_emblem": "The Empress Emblem",
+  "item.rupecs_emblems.the_emperor_emblem": "The Emperor Emblem",
 
 
   "item.rupecs_emblems.foreseen_emblem": "Emblem of The Foreseen",
@@ -446,6 +449,8 @@
   "key.rupecs_emblems.third_emblem_ability": "Third Ability",
 
   "effect.rupecs_emblems.bleeding": "Bleeding",
+  "effect.rupecs_emblems.immortality": "Immortality",
+  "effect.rupecs_emblems.farmers_blessing": "Farmers Blessing",
 
   "curios.identifier.emblem": "Omni Emblem Slot",
   "curios.identifier.f_tier_emblem": "F Emblem Slot",

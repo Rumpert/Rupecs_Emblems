@@ -1,9 +1,9 @@
-// 1.20.1	2026-06-07T19:48:48.7036621	Tags for minecraft:item mod id rupecs_emblems
+// 1.20.1	2026-06-10T12:05:55.2098299	Tags for minecraft:item mod id rupecs_emblems
 6d775fc13958a767fbbe962f72c303c8d028fc06 data/curios/tags/items/a_tier_emblem.json
 42ac7a011fb4ac44cb4c0575b5fc379aba142c48 data/curios/tags/items/b_tier_emblem.json
-f75c50d1902b8fc35ab63372715aef186fc68bda data/curios/tags/items/c_tier_emblem.json
-e9231b81610e0a550705ebe1b5dfc89130eafe6e data/curios/tags/items/d_tier_emblem.json
-5a8df654de1ce1ac3cb93fc825c51dc6b885520b data/curios/tags/items/emblem.json
+4e51df91c09e1a97e8f683ed5bfeafcbaf67fa25 data/curios/tags/items/c_tier_emblem.json
+a65d5ce56f02c62038d5b88e564b76c4137c36ef data/curios/tags/items/d_tier_emblem.json
+0247a03982438946f3bf30ebfe6fc5828966bcfa data/curios/tags/items/emblem.json
 e002338c1df20c0d8232e1f0e09bf61a38bd8d42 data/curios/tags/items/e_tier_emblem.json
 b56166d7310be8c55f4efd3708c384269acbea2c data/curios/tags/items/f_tier_emblem.json
 41779519822e44f4fb5a8505a06632547a6ea4b5 data/curios/tags/items/ss_tier_emblem.json
@@ -11,9 +11,9 @@ b56166d7310be8c55f4efd3708c384269acbea2c data/curios/tags/items/f_tier_emblem.js
 9195dfc2f57b6f3c7aee0281060f105b4bbf0278 data/curios/tags/items/u_tier_emblem.json
 6d775fc13958a767fbbe962f72c303c8d028fc06 data/rupecs_emblems/tags/items/a_tier_emblems.json
 42ac7a011fb4ac44cb4c0575b5fc379aba142c48 data/rupecs_emblems/tags/items/b_tier_emblems.json
-f75c50d1902b8fc35ab63372715aef186fc68bda data/rupecs_emblems/tags/items/c_tier_emblems.json
-e9231b81610e0a550705ebe1b5dfc89130eafe6e data/rupecs_emblems/tags/items/d_tier_emblems.json
-5a8df654de1ce1ac3cb93fc825c51dc6b885520b data/rupecs_emblems/tags/items/emblems.json
+4e51df91c09e1a97e8f683ed5bfeafcbaf67fa25 data/rupecs_emblems/tags/items/c_tier_emblems.json
+a65d5ce56f02c62038d5b88e564b76c4137c36ef data/rupecs_emblems/tags/items/d_tier_emblems.json
+0247a03982438946f3bf30ebfe6fc5828966bcfa data/rupecs_emblems/tags/items/emblems.json
 e002338c1df20c0d8232e1f0e09bf61a38bd8d42 data/rupecs_emblems/tags/items/e_tier_emblems.json
 6cd0e8de228bbf9c1a7f34a398208f2f02158897 data/rupecs_emblems/tags/items/food.json
 b56166d7310be8c55f4efd3708c384269acbea2c data/rupecs_emblems/tags/items/f_tier_emblems.json

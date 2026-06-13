@@ -11,9 +11,11 @@ import net.hubert.rupecs_emblems.item.custom.ModEmblemItem;
 import net.hubert.rupecs_emblems.network.PacketHandler;
 import net.hubert.rupecs_emblems.network.packet.RandomPacket;
 import net.hubert.rupecs_emblems.network.packet.RinkPacket;
+import net.hubert.rupecs_emblems.network.packet.RinkSyncPacket;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.util.RandomSource;
@@ -34,6 +36,7 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.common.ForgeMod;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.fml.ModList;
+import net.minecraftforge.network.PacketDistributor;
 import net.rumpertt.rupecs_elytras.item.custom.ModElytraItem;
 import net.rumpertt.rupecs_elytras.playerData.FlightTimeDataProvider;
 import net.rumpertt.rupecs_elytras.playerData.PlayerFlightTimeEntry;
@@ -324,6 +327,9 @@ public class EmblemEffectProvider {
     private static final double ACE_EMBLEM_FORTUNE_FIST_BONUS = 3;
     private static final double THE_FOOL_EMBLEM_THE_FOOL_BONUS = 1;
     private static final double THE_MAGICIAN_EMBLEM_THE_MAGICIAN_BONUS = 1;
+    private static final double THE_HIGH_PRIESTESS_EMBLEM_THE_HIGH_PRIESTESS_BONUS = 1;
+    private static final double THE_EMPRESS_EMBLEM_THE_EMPRESS_BONUS = 1;
+    private static final double THE_EMPEROR_EMBLEM_THE_EMPEROR_BONUS = 1;
     private static final double ANVIL_EMBLEM_ANVIL_BONUS = 0.05;
     private static final double BLACKSMITH_EMBLEM_ANVIL_BONUS = 0.15;
     private static final double FORGER_EMBLEM_ANVIL_BONUS = 0.3;
@@ -1767,6 +1773,18 @@ public class EmblemEffectProvider {
                 applyStaticModifier(entity, ModAttributes.THE_MAGICIAN.get(), emblemItem.getUniqueID(),
                         "The Magician Emblem Bonus", THE_MAGICIAN_EMBLEM_THE_MAGICIAN_BONUS, AttributeModifier.Operation.ADDITION);
                 break;
+            case "the_high_priestess_emblem":
+                applyStaticModifier(entity, ModAttributes.THE_HIGH_PRIESTESS.get(), emblemItem.getUniqueID(),
+                        "The High Priestess Emblem Bonus", THE_HIGH_PRIESTESS_EMBLEM_THE_HIGH_PRIESTESS_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "the_empress_emblem":
+                applyStaticModifier(entity, ModAttributes.THE_EMPRESS.get(), emblemItem.getUniqueID(),
+                        "The Empress Emblem Bonus", THE_EMPRESS_EMBLEM_THE_EMPRESS_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
+            case "the_emperor_emblem":
+                applyStaticModifier(entity, ModAttributes.THE_EMPEROR.get(), emblemItem.getUniqueID(),
+                        "The Emperor Emblem Bonus", THE_EMPEROR_EMBLEM_THE_EMPEROR_BONUS, AttributeModifier.Operation.ADDITION);
+                break;
             case "anvil_emblem":
                 applyStaticModifier(entity, ModAttributes.ANVIL.get(), emblemItem.getUniqueID(),
                         "Anvil Emblem Bonus", ANVIL_EMBLEM_ANVIL_BONUS, AttributeModifier.Operation.ADDITION);
@@ -1926,8 +1944,32 @@ public class EmblemEffectProvider {
             case "weightless_emblem" -> removeFlightBonus(entity, emblemItem, WEIGHTLESS_EMBLEM_FLIGHT_TIME_MULTIPLIER_BONUS);
             case "wing_power_emblem" -> removeFlightBonus(entity, emblemItem, WING_POWER_EMBLEM_FLIGHT_TIME_MULTIPLIER_BONUS);
             case "sky_wanderer_emblem" -> resetSkyWandererFlight(entity);
-            case "rink_emblem"-> PacketHandler.sendToServer(new RinkPacket(entity, true));
-            case "random_emblem"-> PacketHandler.sendToServer(new RandomPacket(true));
+            case "rink_emblem" -> {
+                if (entity instanceof Player player) {
+                    if (player.level().isClientSide) {
+                        // Client: send packet to server (still needed for any client‑side logic)
+                        PacketHandler.sendToServer(new RinkPacket(player, true));
+                    } else {
+                        // Server: directly remove the tag and sync to client
+                        player.getTags().remove("rink_active");
+                        PacketHandler.INSTANCE.send(
+                                PacketDistributor.PLAYER.with(() -> (ServerPlayer) player),
+                                new RinkSyncPacket(player, false)
+                        );
+                    }
+                }
+            }
+            case "random_emblem" -> {
+                if (entity instanceof Player player) {
+                    removeModifierIfPresent(entity, ModAttributes.RANDOM.get(), id);
+                    if (player.level().isClientSide) {
+                        PacketHandler.sendToServer(new RandomPacket(true));
+                    } else {
+                        // Server: directly shrink the list
+                        RandomHandlerCommon.shrinkEmblemList(player);
+                    }
+                }
+            }
         }
     }
     private static void removeFlightBonus(LivingEntity entity, ModEmblemItem emblemItem, float bonus) {
@@ -2894,9 +2936,9 @@ public class EmblemEffectProvider {
     }
 
     // Helper methods
-    private static void applyStaticModifier(LivingEntity entity, Attribute attribute,
-                                            UUID modifierId, String name, double amount,
-                                            AttributeModifier.Operation operation) {
+    public static void applyStaticModifier(LivingEntity entity, Attribute attribute,
+                                           UUID modifierId, String name, double amount,
+                                           AttributeModifier.Operation operation) {
         AttributeInstance instance = entity.getAttribute(attribute);
         if (instance == null || instance.getModifier(modifierId) != null) return;
         if(attribute == Attributes.MOVEMENT_SPEED && !entity.level().getGameRules().getRule(ModGameRules.ALLOW_EMBLEM_SPEED_BONUS).get())return;
@@ -2940,7 +2982,7 @@ public class EmblemEffectProvider {
         }
     }
 
-    private static void removeModifierIfPresent(LivingEntity entity, Attribute attribute, UUID modifierId) {
+    public static void removeModifierIfPresent(LivingEntity entity, Attribute attribute, UUID modifierId) {
         AttributeInstance instance = entity.getAttribute(attribute);
         if (instance != null && instance.getModifier(modifierId) != null) {
             instance.removeModifier(modifierId);

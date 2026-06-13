@@ -2,13 +2,18 @@ package net.hubert.rupecs_emblems.network;
 
 import net.hubert.rupecs_emblems.Rupecs_Emblems;
 import net.hubert.rupecs_emblems.network.packet.*;
+import net.hubert.rupecs_emblems.util.ClientCooldownData;
+import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;
 import net.minecraftforge.network.NetworkDirection;
+import net.minecraftforge.network.NetworkEvent;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.PacketDistributor;
 import net.minecraftforge.network.simple.SimpleChannel;
+
+import java.util.function.Supplier;
 
 public class PacketHandler {
     public static SimpleChannel INSTANCE;
@@ -33,6 +38,12 @@ public class PacketHandler {
                 .consumerMainThread(PoopPacket::handle)
                 .add();
 
+        net.messageBuilder(CooldownServerAddSyncPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(CooldownServerAddSyncPacket::new)
+                .encoder(CooldownServerAddSyncPacket::toBytes)
+                .consumerMainThread(CooldownServerAddSyncPacket::handle)
+                .add();
+
         net.messageBuilder(ReturnPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
                 .decoder(ReturnPacket::new)
                 .encoder(ReturnPacket::toBytes)
@@ -49,6 +60,24 @@ public class PacketHandler {
                 .decoder(MagicianPacket::new)
                 .encoder(MagicianPacket::toBytes)
                 .consumerMainThread(MagicianPacket::handle)
+                .add();
+
+        net.messageBuilder(PriestessPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(PriestessPacket::new)
+                .encoder(PriestessPacket::toBytes)
+                .consumerMainThread(PriestessPacket::handle)
+                .add();
+
+        net.messageBuilder(EmpressPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(EmpressPacket::new)
+                .encoder(EmpressPacket::toBytes)
+                .consumerMainThread(EmpressPacket::handle)
+                .add();
+
+        net.messageBuilder(EmperorPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(EmperorPacket::new)
+                .encoder(EmperorPacket::toBytes)
+                .consumerMainThread(EmperorPacket::handle)
                 .add();
 
         // Register CooldownSyncPacket (server → client)
@@ -166,13 +195,11 @@ public class PacketHandler {
                 .encoder(BonemealTogglePacket::toBytes)
                 .consumerMainThread(BonemealTogglePacket::handle)
                 .add();
-        // Register CooldownSyncPacket (server → client)
         net.messageBuilder(HealPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
                 .decoder(HealPacket::new)
                 .encoder(HealPacket::toBytes)
                 .consumerMainThread(HealPacket::handle)
                 .add();
-        // Register CooldownSyncPacket (server → client)
         net.messageBuilder(RinkPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
                 .decoder(RinkPacket::new)
                 .encoder(RinkPacket::toBytes)

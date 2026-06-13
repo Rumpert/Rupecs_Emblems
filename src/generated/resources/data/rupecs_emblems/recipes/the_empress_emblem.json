@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:jack_of_spades"
+    },
+    {
+      "item": "rupecs_emblems:orchid_emblem"
+    },
+    {
+      "item": "rupecs_emblems:tree_emblem"
+    },
+    {
+      "item": "rupecs_emblems:rain_emblem"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    },
+    {
+      "tag": "rupecs_emblems:tier_three_itemiums"
+    }
+  ],
+  "result": {
+    "item": "rupecs_emblems:the_empress_emblem"
+  }
+}
